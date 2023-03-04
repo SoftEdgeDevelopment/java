@@ -9,6 +9,7 @@ public class SwapValues {
          * num2 value to num1
          * then print the updated values
          * */
+
         int num1 = 7;
         int num2 = 9;
 
