@@ -1,6 +1,7 @@
 package unit01.primitive.types.day01;
 
 public class SyntaxAndLogicError {
+
     /*
 Expected output:
 Software Development Engineer in Testing
