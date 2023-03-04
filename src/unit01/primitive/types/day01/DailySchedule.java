@@ -3,8 +3,7 @@ package unit01.primitive.types.day01;
 public class DailySchedule {
 
     public static void main(String[] args) {
-
-
+        //create a daily schedule using print line
         System.out.println("Daily Schedule");
         System.out.println("");
         System.out.println("|| 8 AM");
