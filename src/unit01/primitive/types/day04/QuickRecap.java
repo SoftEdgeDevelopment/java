@@ -2,6 +2,7 @@ package unit01.primitive.types.day04;
 
 public class QuickRecap {
     public static void main(String[] args) {
+        //compound operators, increment decrement, casting, temp conversion
 //        int x = 5 ;
 //        int y = 0;
 
@@ -61,10 +62,15 @@ public class QuickRecap {
         int num1 = 1;
         int num2 = 2;
         int num3;
+        //num3 = 1
         num3 = num1;
+        //num1 = 2
         num1 = num2;
+        //num2 = 1
         num2 = num3;
+        //prints 2
         System.out.println(num1);
+        //prints 1
         System.out.println(num2);
 
 
