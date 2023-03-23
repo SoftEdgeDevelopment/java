@@ -1,20 +1,25 @@
 package unit02.objects.day07;
 
 public class House {
-    //    class variables
+    //new private variables for color and address of house
     private String color;
     private String address;
 
-    //    constructor
+    //generate constructor to assign new parameters
     public House(String color, String address) {
+        //assign new parameters to private variables
         this.color = color;
         this.address = address;
     }
 
-    //    method to change the color
+    //method to change the color with 1 parameter for newColor
     public void colorChange(String newColor) {
+        //display original color of the house
+        System.out.println("The houses color is " + color);
+        //assign new parameter to change the color to newColor
         color = newColor;
-        System.out.print("Your house is painted to ");
-        System.out.println(color);
+        //display which color it was changed to
+        System.out.println("The house is painted to " + color);
+        System.out.println("-------");
     }
 }
