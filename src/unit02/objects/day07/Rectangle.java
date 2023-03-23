@@ -23,7 +23,9 @@ public class Rectangle {
     }
 //    4) declare a getArea method which returns the integer area value
 //    after it calculated the area.
+    //new public int for returned value
     public int getArea(){
+        //must both be int because it will return to original
        int area = width*height;
        //will return the value of area to getArea
        return area;
