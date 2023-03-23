@@ -3,7 +3,7 @@ package unit02.objects.day07;
 public class RectangleMain {
     public static void main(String[] args) {
         Rectangle rectangle1 = new Rectangle(2,3);
-//      rectangle1.printArea();
+        //rectangle1.printArea();
         Rectangle rectangle2 = new Rectangle(5,2);
         //new ints to get areas from rectangles
         int area1 = rectangle1.getArea();
