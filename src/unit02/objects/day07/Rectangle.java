@@ -14,18 +14,19 @@ public class Rectangle {
         this.width = width;
         this.height = height;
     }
-
 //    3) declare print area method
     public void printArea(){
+        //will multiply parameters to get new int for area
         int area = width*height;
-        System.out.print("The area is ");
-        System.out.println(area);
+        //display the area
+        System.out.println("The area of one rectangle is " + area);
     }
-
 //    4) declare a getArea method which returns the integer area value
 //    after it calculated the area.
     public int getArea(){
-      int area = width*height;
-      return area;
+       int area = width*height;
+       //will return the value of area to getArea
+       return area;
     }
+
 }
