@@ -41,7 +41,7 @@ public class JavaCodeNotes
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //         Compound Operators ---
 //         ---
-//             += Plus Equal
+//      += Plus Equal
 //      -= Minus Equal
 //      *= Times Equal
 //      /= Divide Equal
