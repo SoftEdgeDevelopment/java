@@ -10,17 +10,18 @@ public class SuperQuestion {
         if ((y * 2) < x)
         {
             //multiply y by -1 and return the value to y
-            y *=-1;
+            y *=-1; // -2 * -1 = (y = 2)
             //subtract the value of y from z and return z
-            z -= y;
+            z -= y; // 4 - 2 = (z = 2)
         }
         //if z does not equal x
+        // z = 2, x = 5
         if (z != x)
         {
             //add x by 1
-            x++;
+            x++; // x = 6
             //make the value of y equal to x plus z
-            y = x + z;
+            y = x + z; //y = 6 + 2
         }
         //display the new values of x, y, and z
         System.out.println("x: " + x + " y: " + y + " z: " + z);
