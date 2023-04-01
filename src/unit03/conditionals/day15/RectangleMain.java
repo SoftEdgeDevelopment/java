@@ -1,6 +1,7 @@
 package unit03.conditionals.day15;
 //new class for main method for rectangle
 public class RectangleMain {
+
     public static void main(String[] args) {
         //create new objects and assign parameters for width and height
         Rectangle r1 = new Rectangle(3,5);
