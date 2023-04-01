@@ -4,6 +4,7 @@ import java.util.Objects;
 
 //new public class for rectangle
 public class Rectangle {
+
     //new private variables for width and height
     private int width;
     private int height;
