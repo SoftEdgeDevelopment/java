@@ -6,22 +6,23 @@ public class MathClub {
 //        or if you have A grade from Math check strings with .equals()
 //        you can join the math club
 //        else you can't join the math club.
-        double gpa;
-        String mathGrade;
-
-        gpa = 2.97;
-        mathGrade = "A";
+        //new variables for grade and letter grade
+        double gpa = 2.4;
         char mathLetterGrade = 'A';
 
-//        if(gpa >= 3.0 || mathGrade.equals("A")){
-//            System.out.println("You are welcome to join.");
+        //String mathGrade = "A";
+//       if(gpa >= 3.0 || mathGrade.equals("A")){
+//          System.out.println("You are welcome to join.");
 //        } else {
-//            System.out.println("You can't join the club.");
+//           System.out.println("You can't join the club.");
 //        }
 
-        if(gpa >= 3.0 || mathLetterGrade == 'A'){
+        //if gpa is greater than or equal to 4 OR if mathLetterGrade is equal to 'A'
+        if(gpa >= 4 || mathLetterGrade == 'A'){
+            //they can join
             System.out.println("You are welcome to join.");
         } else {
+            //else they cant join
             System.out.println("You can't join the club.");
         }
     }
