@@ -1,5 +1,6 @@
 package unit04.iteration.day16;
 //while loop display a message with a counter until it reaches a certain amount
+
 public class While05Example {
     public static void main(String[] args) {
 //        print numbers from 0 to 5 using while loop.
