@@ -1,7 +1,7 @@
 public class JavaCodeNotes
 {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//      --- START MAIN METHOD LIKE THIS ---
+//  --- START MAIN METHOD LIKE THIS ---
 //            public class "Class name"
 //            {
 //                public static void main(String[] args)
@@ -10,14 +10,14 @@ public class JavaCodeNotes
 //                }
 //            }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//            Helpful Quick Commands ---
-//                ---
+//        Helpful Quick Commands ---
+//            ---
 //        psvm (tab) - public static void main (String[] args){}
 //        sout (tab) - System.out.println("Hello World!");
 //        Scanner (scanner name) = new Scanner(System.in);    --- gets user input
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//            Data Types ---
-//                ---
+//        Data Types ---
+//            ---
 //      int - whole number (72) - 2147483647 max value
 //      double - number with decimal (57.82)
 //      boolean - true or false
@@ -28,8 +28,8 @@ public class JavaCodeNotes
 //      long - 64bit very large number (3459384593892342L)
 //      float - data type that can store fractional numbers (74127f)
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//        Arithmetic Operations ---
-//        ---
+//     Arithmetic Operations ---
+//     ---
 //      +  Addition
 //      - Subtraction
 //      * Multiplication
@@ -39,8 +39,8 @@ public class JavaCodeNotes
 //      || Or - (a || b) means (a or b)
 //      ! Is Not - (x != y) means (x does not equal y)
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//         Compound Operators ---
-//         ---
+//     Compound Operators ---
+//     ---
 //      += Plus Equal
 //      -= Minus Equal
 //      *= Times Equal
@@ -49,8 +49,8 @@ public class JavaCodeNotes
 //      ++ increase by 1 and assign the value back
 //      -- decrease by 1 and assign the value back
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//         Casting ---
-//         ---
+//     Casting ---
+//     ---
 //      //this will only show as integer 2 because nothing was cast as double and whole number 5 / whole number 2 = 2
 //              System.out.println(5/2);
 //   -----------------------------------------
@@ -60,8 +60,8 @@ public class JavaCodeNotes
 //      //this will show as integer but cast (5/2) = 2 to double because of (). answer will be 2.0 because int 5/2 = 2 and (double) = 2.0
 //             System.out.println((double)(5/2));
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//         Get User Input ---
-//         ---
+//     Get User Input ---
+//     ---
 //      //create new scanner for user input
 //      Scanner input = new Scanner(System.in);
 //      //create new string and get the user input
@@ -69,8 +69,8 @@ public class JavaCodeNotes
 //      //display the user input
 //      System.out.println("Your favorite language is " + programmingLanguage);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//           Print out the sum of numbers ---
-//           ---
+//       Print out the sum of numbers ---
+//       ---
 //           //this will print out the sum of the numbers in num (7 + 8 + 9)
 //           int num = 789;
 //           int sum = 0;
@@ -82,8 +82,8 @@ public class JavaCodeNotes
 //           num /= 10;
 //           System.out.println(sum);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//           String Methods ---
-//           ---
+//       String Methods ---
+//       ---
 //      String.length() - will give the length (amount of chars) contained in the String
 //      String.indexOf(String name) - will give the index starting location of the word in the string
 //      String.substring(int from #, int to #) - will give the string from index start to end location picked from user
@@ -101,8 +101,8 @@ public class JavaCodeNotes
 //      String.replace(String 1, String 2) - replaces the String of 2 values
 //      String.replaceAll(String 1, String2) - replaces everything between the 2 Strings
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//            Java Math Class Methods ---
-//            ---
+//        Java Math Class Methods ---
+//        ---
 //      (Math.typeOfOperation()) - always write it like this
 //      Math.abs(num1) - gives absolute value (positive number)
 //      Math.pow(num,num) - gives the exponent value (2,3 = 2^3 = 8)
@@ -122,8 +122,8 @@ public class JavaCodeNotes
 //      //4 is the starting index location, the random numbers will be between 5 total values starting from 4 (4,5,6,7,8) 8 is the highest possible number
 //      System.out.println((int) (Math.random() * 5) + 4);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-//            If, Else If, Else ---
-//            ---
+//        If, Else If, Else ---
+//        ---
 //          public class GradeExample
 //           {
 //              public static void main(String[] args) {
@@ -153,6 +153,61 @@ public class JavaCodeNotes
 //        //checks if age is greater than or equal to 18 ?   if true - runs first String, if false - runs second String
 //        message = age >= 18 ? "You can join the party." : "You are not allowed";
 //        System.out.println(message);
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+//         For / While Loops ---
+//         ---
+//    --------------------- for loop and while Loop to print the sum of the numbers ---------------------
+//      public static void main(String[] args) {
+//        //example of for loop to make a countdown from 10
+//        //starting from 10, until 0, countdown by 1
+//        for (int i = 10; i >=0 ; i--) {
+//            //display counting down and the number
+//            System.out.println("counting down " + i);
+//        }
+//     ---------------------------while loop-------------------------------
+//        //example of while loop to make a countdown from 10
+//        //new int variable for counter
+//        int counter = 10;
+//        //while counter is greater than or equal to zero
+//        while(counter>=0){
+//            //display the count
+//            System.out.println("counting down " + counter);
+//            //count down
+//            counter--;
+//        }
+//    }
+//      --------------------- for loop to print the sum of the numbers ---------------------
+//          public static void main(String[] args) {
+//          Write a for loop to find
+//          the sum of the numbers between 1 and 5.
+//
+//        //new int variable sum starting from 0
+//        int sum = 0;
+//        //starting from 1 until 5, add 1
+//        for (int i = 1; i <=5 ; i++) {
+//            //print the sum
+//            System.out.println(sum);
+//            //sum = sum + i
+//            //(0+1)(1+2)(3+3)(6+4)(10+5) = 15
+//            sum = sum + i;
+//        }
+//        //display the total (15)
+//        System.out.println("result: " + sum);
+//    }
+//      --------------------- for loop String Transversal ---------------------
+//      public static void main(String[] args) {
+//        String str1 = "Hello";
+//
+//        //starting at 0, until String str1 length, add 1
+//        for (int i = 0; i < str1.length(); i++) {
+//            //display the substring at beginning index i, and end index i + 1, this will only give 1 letter at a time
+//            System.out.println(str1.substring(i, i+1));
+//            //display the char at index location i in String str1
+//            System.out.println("with charAt(i) " + str1.charAt(i));
+//        }
+//        //display this at the end of the for loop
+//        System.out.println("Something");
+//    }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //         Switches ---
 //         ---
