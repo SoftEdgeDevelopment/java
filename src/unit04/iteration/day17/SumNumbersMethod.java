@@ -1,41 +1,58 @@
 package unit04.iteration.day17;
-
-public class SumNumbersMethod {
-    public static void main(String[] args) {
 //        Turn it into a method to
 //        return the sum of numbers
 //        starting from 1 to the given parameter value.
 //        public static int sumOfNumbers(int number)
-//        int sum = sumOfNumbers(3);
-//        System.out.println(sum);
-//        sum = sumOfNumbers(5);
-//        System.out.println(sum);
-//        System.out.println(sumOfNumbers(10));
-        printFirstNNumbers(33);
-        printHelloJavaNTimes(3);
-        System.out.println("Calling sumofnumbers method with 5");
-        System.out.println("result of 5 numbers addition is " + sumOfNumbers(5));
+//create a method to return the sum of the numbers in a given parameter, and another method to call to a message a given parameter of times, and call the methods from the main
+public class SumNumbersMethod {
+    //main method to run the program
+    public static void main(String[] args) {
+        //call to the sum of numbers method,
+        // input 1 parameter for the number to count until
+        int sum1 = sumOfNumbers(100);
+        //will display the count and sum of all numbers 1-100
+        System.out.println(sum1);
+        int sum2 = sumOfNumbers(4);
+        //will display the count and sum of all numbers 1-4
+        System.out.println(sum2);
+        System.out.println("the sum of all numbers 1-100 is " + sum1);
+        //call to the printTheMessage method and give the parameter for the number of times it will be printed
+        printTheMessage(3);
+        System.out.println("Hello Java printed 3 times");
+        //call to the printFirstNNumbers method to print the numbers of a given parameter
+        printFirstNNumbers(8);
     }
-
-    public static int sumOfNumbers(int number) {
+    //new method to return the sum of numbers
+    //with 1 parameter of the count for the number to enter in main
+    public static int sumOfNumbers(int number){
+        //new int variable for total value
+        //starting from 0
         int total = 0;
-        for (int i = 1; i <= number; i++) {
+        //starting from 1, until the number parameter, add 1
+        for (int i = 1 ; i <= number ; i ++){
+            //to add the sum of all the numbers, total = total + 1
             total = total + i;
+            //display the count and the total of the count
+            System.out.println(i + " : " +total);
         }
+        //return the value of the total to the method
         return total;
     }
-
-    public static void printHelloJavaNTimes(int n) {
-        for (int i = 0; i < n; i++) {
+    //new method to print the message a certain number of times
+    //1 parameter for user to input the number of times the message is printed
+    public static void printTheMessage(int number){
+        //starting from 0, until the given parameter number, add 1
+        for (int i = 1; i <= number; i++){
+            //display hello java
             System.out.println("Hello Java");
         }
     }
-
-    //    print the first n numbers starting from 1
-    public static void printFirstNNumbers(int n) {
-        for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
+    //new method to print the first n numbers starting from 1
+    public static void printFirstNNumbers(int n){
+        //starting from 1 until the given number from int parameter, add 1
+        for(int i = 1; i <= n; i++){
+            //display the count of the numbers from a given parameter
+            System.out.print(" " + i);
         }
-        System.out.println();
     }
 }
