@@ -1,5 +1,5 @@
 package unit04.iteration.day18;
-
+//nested loop example
 public class NestedLoops {
     public static void main(String[] args) {
         for (int outer = 0; outer < 3; outer++) {
