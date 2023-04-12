@@ -1,5 +1,4 @@
-public class JavaCodeNotes
-{
+public class JavaCodeNotes {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //  --- START MAIN METHOD LIKE THIS ---
 //            public class "Class name"
@@ -164,7 +163,7 @@ public class JavaCodeNotes
 //            //display counting down and the number
 //            System.out.println("counting down " + i);
 //        }
-//     ---------------------------while loop-------------------------------
+//     --------------------------- while loop -------------------------------
 //        //example of while loop to make a countdown from 10
 //        //new int variable for counter
 //        int counter = 10;
@@ -208,6 +207,82 @@ public class JavaCodeNotes
 //        //display this at the end of the for loop
 //        System.out.println("Something");
 //    }
+//    --------------------- String Transversal and writing a word backwards ---------------------
+//     public static void main(String[] args) {
+//        String str1 = "World";
+//        //starting at 1, until the Strings length, add 1
+//        for (int i = 0; i < str1.length(); i++) {
+//            //display the substring starting at i until i+1 (0,0+1) to get each index letter 1 at a time
+//            System.out.println(str1.substring(i, i+1));
+//        }
+//        System.out.println("+++++Reversed Version++++++++++");
+//        //starting at String legnth - 1, until 0, subtract 1
+//        for (int i = str1.length() - 1; i >=0 ; i--) {
+//            //display the substrings and +1 to display 1 letter at a time
+//            System.out.println(str1.substring(i, i+1));
+//        }
+//        System.out.println("+++++charAt() Version++++++++++");
+//        //same way to write as the first method with charAt instead of substring
+//        for (int i = 0; i < str1.length(); i++) {
+//            System.out.println(str1.charAt(i));
+//        }
+//       --------------------- check how many of the same char is contained in a string ---------------------
+//     public static void main(String[] args) {
+//        //create a new string for a word
+//        String str1 = "Argentina";
+//        //new count starting from 0
+//        int count = 0;
+//        //starting from 0, until the string length add 1
+//        for (int i = 0; i < str1.length(); i++) {
+//            //checks letter by letter using substring to see how many a's are contained in the String
+//            if (str1.substring(i, i + 1).contains("a") || str1.substring(i, i + 1).contains("A")){
+//                //if any a's are contained, increase the count
+//                count++;
+//            }
+//        }
+//        //display the number of a's in the String
+//        System.out.println("There are " + count + " \"a\"s in the " + str1);
+//
+//    }
+//       --------------------- method to check if a number is prime ---------------------
+//       ---
+//       public static void main(String[] args) {
+//        //call to the isPrime method
+//        isPrime();
+//    }
+//
+//    //new boolean method isPrime to see if a number is prime or not
+//    public static boolean isPrime(){
+//        //new scanner for user input
+//        Scanner scan=new Scanner(System.in);
+//        //prompt user to input a number
+//        System.out.println("input a number: ");
+//        //get user input for int variable number
+//        int number= scan.nextInt();
+//        //boolean to check if a number is prime or not
+//        boolean isPrime;
+//        int count=0;
+//        //starting from, until the user input number, add 1
+//        for (int i =1; i <=number; i++) {
+//            //if the number after being divided by the number has no remaining
+//            if(number%i==0) {
+//                //increase count by 1
+//                count++;
+//            }
+//        }
+//        //if the count goes more than 2
+//        if (count>2){
+//            //the number is not prime
+//            System.out.println("it is not prime");
+//            isPrime=false;
+//        }else{
+//            //else the number is prime
+//            System.out.println("it is prime");
+//            isPrime=true;
+//        }
+//        return isPrime;
+//
+//    }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //         Switches ---
 //         ---
@@ -247,4 +322,5 @@ public class JavaCodeNotes
 //                  }
 //              }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 }
