@@ -163,7 +163,7 @@ public class JavaCodeNotes {
 //            //display counting down and the number
 //            System.out.println("counting down " + i);
 //        }
-//     ---------------------------while loop-------------------------------
+//     --------------------------- while loop -------------------------------
 //        //example of while loop to make a countdown from 10
 //        //new int variable for counter
 //        int counter = 10;
@@ -207,8 +207,7 @@ public class JavaCodeNotes {
 //        //display this at the end of the for loop
 //        System.out.println("Something");
 //    }
-//--------------------------------------------------------------------------------------------------------------------------------------------------------
-//       Method to check if a number is Prime
+//       --------------------- method to check if a number is prime ---------------------
 //       ---
 //       public static void main(String[] args) {
 //        //call to the isPrime method
