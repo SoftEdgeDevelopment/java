@@ -17,5 +17,9 @@ public class MainEncapsulation {
         //default can be reached within package or sub packages
         a.defaultNum = 7;
         System.out.println(a.defaultNum);
+        //call to the private num method to display the value of privateNum
+        a.setPrivateNum();
+
+
     }
 }
