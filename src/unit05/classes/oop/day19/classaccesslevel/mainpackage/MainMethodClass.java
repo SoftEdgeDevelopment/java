@@ -12,4 +12,5 @@ public class MainMethodClass {
         //will not work because default class can not be reached from different packages
         //DefaultLevelClass x = new DefaultLevelClass();
     }
+
 }

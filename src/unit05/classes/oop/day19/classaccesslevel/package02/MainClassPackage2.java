@@ -8,5 +8,6 @@ public class MainClassPackage2 {
         PublicLevelClass publicLevelClass = new PublicLevelClass();
         //and default is contained in the same package
         DefaultLevelClass defaultLevelClass = new DefaultLevelClass();
+
     }
 }
