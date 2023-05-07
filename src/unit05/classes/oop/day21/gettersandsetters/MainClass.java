@@ -9,5 +9,10 @@ public class MainClass {
         System.out.println(student1.getId());
         System.out.println(student1.getName());
         System.out.println(student1.getGpa());
+        //create new object for car and call to the getters from Car class
+        Car car1 = new Car("Red",1998,150000);
+        System.out.println(car1.getColor());
+        System.out.println(car1.getYear());
+        System.out.println(car1.getMileage());
     }
 }
