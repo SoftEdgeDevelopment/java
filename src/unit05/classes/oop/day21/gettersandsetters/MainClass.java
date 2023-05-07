@@ -11,9 +11,12 @@ public class MainClass {
         System.out.println(student1.getGpa());
         //create new object for car and call to the getters from Car class
         Car car1 = new Car("Red",1998,150000);
-        System.out.println(car1.getColor());
+        Car car2 = new Car("Green", 1947, 175000);
+        //display both cars mileage using getMileage method
+        System.out.println("Car 1 mileage is : " + car1.getMileage());
+        System.out.println("Car 2 mileage is : " + car2.getMileage());
+        //display car1 year
         System.out.println(car1.getYear());
-        System.out.println(car1.getMileage());
         //display all the info of car1 from the car method override to string
         System.out.println(car1);
     }
