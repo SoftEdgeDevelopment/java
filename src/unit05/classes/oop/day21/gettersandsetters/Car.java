@@ -24,4 +24,10 @@ public class Car {
     public int getMileage(){
         return mileage;
     }
+    //create to string method
+    //can change to write whatever you want to
+    @Override
+    public String toString() {
+        return "It is a " + color + " Car with " + mileage + " mileage from the year of " + year;
+    }
 }
