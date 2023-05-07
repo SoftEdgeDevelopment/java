@@ -14,5 +14,7 @@ public class MainClass {
         System.out.println(car1.getColor());
         System.out.println(car1.getYear());
         System.out.println(car1.getMileage());
+        //display all the info of car1 from the car method override to string
+        System.out.println(car1);
     }
 }
