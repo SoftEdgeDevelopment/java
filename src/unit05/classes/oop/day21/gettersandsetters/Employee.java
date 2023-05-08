@@ -2,21 +2,23 @@ package unit05.classes.oop.day21.gettersandsetters;
 
 import java.util.Scanner;
 
-//class created with getters to call from the main and setters to change the values of parameters of the object in the main and string override, display all of the information of the object
+//class created with getters to call from the main and setters to change the values of parameters of the object in the main and string override, display all the information of the object
 public class Employee {
+    //private variables created to assign to main
     private String name;
     private int age;
     private double salary;
     private boolean isHired;
 
 
+    //new constructor with no parameters, variables assigned
     public Employee(){
         this.name = "Mike";
         this.age = 17;
         this.salary = 135000;
         this.isHired = false;
     }
-
+    //new constructor with parameters for values assigned to private variables
     public Employee(String name, int age, double salary, boolean isHired) {
         this.name = name;
         this.age = age;
@@ -25,6 +27,7 @@ public class Employee {
     }
 
 
+    //generate getter and setter methods
 
     public String getName() {
         return name;
@@ -58,11 +61,13 @@ public class Employee {
         isHired = hired;
     }
 
+    //generate override to string method to display the information in the main
     @Override
     public String toString() {
         return "The persons name is " + name + " and they are " + age + " years old with a salary of " + salary + " and is registered as an employee: " + isHired;
     }
 
+    //main method
     public static void main(String[] args) {
         //create new object for employee
         Employee employee1 = new Employee("James Bond", 42, 150000.50,true);
