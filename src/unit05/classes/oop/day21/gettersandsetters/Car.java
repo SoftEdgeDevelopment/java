@@ -1,5 +1,5 @@
 package unit05.classes.oop.day21.gettersandsetters;
-//Car class created with getters to call from the main
+//Car class created with getters to call from the main and setters to change the values of parameters of the object in the main
 public class Car {
     //create private variables for color, year, mileage
     private String color;
@@ -13,7 +13,18 @@ public class Car {
         this.year = year;
         this.mileage = mileage;
     }
-
+    //new method to change the color of the car
+    public void setColor(String color){
+        this.color = color;
+    }
+    //new method to set the year
+    public void setYear(int year){
+        this.year = year;
+    }
+    //new method to set the mileage
+    public void setMileage(int mileage){
+        this.mileage = mileage;
+    }
     //create getter methods to get color, yea, and mileage information
     public String getColor(){
         return color;
