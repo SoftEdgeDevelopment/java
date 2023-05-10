@@ -103,6 +103,5 @@ public class Pizzeria {
         //new variable for total using users input and calling to the price method
         double total = pizzeria1.priceForPlainAndDrink(numOfPlain,numOfDrink);
         System.out.println("The total price for " + numOfPlain + " Plain Pizza and " + numOfDrink + " Drinks is $" + total);
-
     }
 }
