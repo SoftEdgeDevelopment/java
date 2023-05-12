@@ -22,6 +22,7 @@ public class BlackjackGame {
         System.out.println("Place Your Bet");
         //get user input for players bet
         playerBet = input.nextDouble();
+
         //subtract the bet from the balance
         playerBalance -= playerBet;
         //display the players bet amount
