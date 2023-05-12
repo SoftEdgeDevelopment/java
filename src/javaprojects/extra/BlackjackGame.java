@@ -10,8 +10,22 @@ public class BlackjackGame {
         //new variables for player and dealer card total
         int playerCards = 0;
         int dealerCards = 0;
+        //new variable for the players starting balance
+        double playerBalance = 1000.0;
+        //new variable for bet amount;
+        double playerBet;
         //new variable to get user answer for hit or stand
         String playerAnswer;
+        //display the players balance
+        System.out.println("Balance: " + playerBalance);
+        //prompt user to place their bet
+        System.out.println("Place Your Bet");
+        //get user input for players bet
+        playerBet = input.nextDouble();
+        //subtract the bet from the balance
+        playerBalance -= playerBet;
+        //display the players bet amount
+        System.out.println("Bet: " + playerBet);
         //first give the player 2 cards and the dealer 1 card showing
         playerCards += dealCard(new Random());
         dealerCards += dealCard(new Random());
@@ -24,18 +38,27 @@ public class BlackjackGame {
             if (dealerCards == 21 && playerCards == 21)
             {
                 System.out.println("Both player and Dealer have BLACKJACK, Push");
+                //return the players initial bet to them
+                playerBalance += playerBet;
                 return;
             }
             System.out.println("You have BLACKJACK!");
+            //return 2.5x the amount to player
+            playerBalance += (playerBet * 2.5);
+            System.out.println("Balance: " + playerBalance);
             return;
         }
         if (dealerCards == 21){
             if (dealerCards == 21 && playerCards == 21)
             {
                 System.out.println("Both player and Dealer have BLACKJACK, Push");
+                //return the players initial bet to them
+                playerBalance += playerBet;
+                System.out.println("Balance: " + playerBalance);
                 return;
             }
             System.out.println("YOU LOST! DEALER BLACKJACK!");
+            System.out.println("Balance: " + playerBalance);
             return;
         }
         while (playerCards <= 21) {
@@ -43,8 +66,8 @@ public class BlackjackGame {
             if (playerCards < 21) {
                 //prompt the user to hit or stand
                 System.out.println("(H) - Hit or (S) - Stand?");
-                //store the users answer as playerAnswer using the scanner
-                playerAnswer = input.nextLine();
+                //store the users answer as input.next to receive the second input playerAnswer using the scanner
+                playerAnswer = input.next();
                 //if the players answer = h
                 if (playerAnswer.equalsIgnoreCase("h")) {
                     //the player hits and gets another random card
@@ -55,6 +78,7 @@ public class BlackjackGame {
                     if (playerCards > 21) {
                         //the player loses automatically
                         System.out.println("You bust, dealer wins");
+                        System.out.println("Balance: " + playerBalance);
                         //the code ends
                         return;
                         //else if the player cards is 21
@@ -86,6 +110,9 @@ public class BlackjackGame {
                 System.out.println("Dealer cards are : " + dealerCards);
                 //dealer busts
                 System.out.println("Dealer Busts, you win");
+                //give player winnings
+                playerBalance += (playerBet * 2);
+                System.out.println("Balance: " + playerBalance);
                 //return to close while loop and end the program
                 return;
             }
@@ -96,16 +123,23 @@ public class BlackjackGame {
         if (playerCards > dealerCards){
             //player wins
             System.out.println("You Win");
+            //give player winnings
+            playerBalance += (playerBet * 2);
+            System.out.println("Balance: " + playerBalance);
         }
         //else if the player and dealers cards are equal
         else if (playerCards == dealerCards){
             //it is a push
             System.out.println("Push");
+            //return the players initial bet to them
+            playerBalance += playerBet;
+            System.out.println("Balance: " + playerBalance);
         }
         //else the dealers cards are greater than the players cards
         else {
             //the dealer wins
             System.out.println("Dealer wins");
+            System.out.println("Balance: " + playerBalance);
         }
     }
     //new static method to be called to the main with 1 Random parameter for a random number
