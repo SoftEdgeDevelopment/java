@@ -16,4 +16,5 @@ public class Assignment09 {
         //print to console with the following statement above
         System.out.println("first is" + first + " " + "second=" + second);
     }
+
 }
