@@ -3,7 +3,6 @@ package javaprojects.project04;
 import java.util.Scanner;
 //gets user input and checks if they are teacher or student
 public class Assignment14 {
-
     //get user input for name
     //if name equals "Chen", display teacher
     //else display student
