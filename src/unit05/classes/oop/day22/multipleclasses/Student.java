@@ -39,6 +39,17 @@ public class Student {
         this.address = address;
     }
 
+    //check if the given address is in the same state, getting address from Address object
+    public boolean isSameState(Address otherAddress){
+        //new string to get the states from both inputs
+        //gets address object from outside and checks if it is the same as the address given object
+        String myState = address.getState();
+        String otherState = otherAddress.getState();
+        //checks if the states are the same
+        return myState.equals(otherState);
+    }
+
+
     //generate override to string method to display all the information of the address
     @Override
     public String toString() {
