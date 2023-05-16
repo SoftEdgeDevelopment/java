@@ -1,4 +1,5 @@
 package unit05.classes.oop.day22.staticvariablesmethods;
+
 //showing the different between static(local) and instance variables with constructor and getter
 public class Car {
     //create private instance variables to be assigned values
