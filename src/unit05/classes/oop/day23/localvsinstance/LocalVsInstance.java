@@ -6,6 +6,9 @@ public class LocalVsInstance {
     public void printInfo(){
         //local variables are created in the method
         int localVariable;            //this variable is created and only available within the method
+        int instanceVariable;
+        //System.out.println(instanceVariable);       //will not work
+        System.out.println(this.instanceVariable);    //needs to use this.
     }
     public void printInfo2(){
         int localVariable2;
