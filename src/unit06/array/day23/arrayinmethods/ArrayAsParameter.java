@@ -1,4 +1,5 @@
-package unit06.array.day23.arraycreation;
+package unit06.array.day23.arrayinmethods;
+
 //create methods to print the index of different elements in the array, call all the methods to the main
 public class ArrayAsParameter {
     public static void main(String[] args) {
