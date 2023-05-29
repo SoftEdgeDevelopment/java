@@ -1,6 +1,7 @@
 package practice;
 
 import unit06.array.day24.arrayreview.Student;
+
 //practice traversing an array in a for loop, and making constructors and objects
 public class Practice18 {
     //create a new private int array variable
