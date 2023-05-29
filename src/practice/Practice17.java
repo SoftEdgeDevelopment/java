@@ -1,6 +1,7 @@
 package practice;
 
 public class Practice17 {
+
     //traverse each String element and print their length to the console
     public static void main(String[] args) {
         //create new String array with animals assigned
