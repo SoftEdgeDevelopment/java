@@ -10,7 +10,8 @@ public class ArrayPrintSameLine {
             System.out.println(array[i] + " ");
             System.out.println(myArray[i] + " ");
         }
-        System.out.println("----------------------");
+        //     \n makes a new space
+        System.out.println("\n----------------------");
         //traverse every other element in the array
         //to increase i by 2, must have i = i + 2
         for (int i = 0; i < myArray.length; i = i + 2) {
