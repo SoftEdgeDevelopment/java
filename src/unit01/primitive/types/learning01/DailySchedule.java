@@ -2,6 +2,7 @@ package unit01.primitive.types.learning01;
 
 public class DailySchedule {
 
+
     public static void main(String[] args) {
         //create a daily schedule using print line
         System.out.println("Daily Schedule");
