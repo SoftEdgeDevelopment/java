@@ -1,4 +1,4 @@
-package unit02.objects.day10;
+package unit02.objects.learning10;
 
 public class PracticeQuestions {
     public static void main(String[] args) {
