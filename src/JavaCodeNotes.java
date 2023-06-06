@@ -23,6 +23,8 @@ public class JavaCodeNotes {
 //        psvm (tab) - public static void main (String[] args){}
 //        sout (tab) - System.out.println("Hello World!");
 //        Scanner (scanner name) = new Scanner(System.in);    --- gets user input
+//        ctrl + cmd + l ---  will organize everything to look nicely
+//        TODO - highlights the code for things to do
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //        Data Types ---
 //            ---
@@ -348,6 +350,26 @@ public class JavaCodeNotes {
 //        return isPrime;
 //
 //    }
+//      --------------- foreach example for int and string ---------------------------
+//    public class ForEachExample {
+//        public static void main(String[] args) {
+//            // declare and initialize an integer array called myArr with values 1, 3, 5, 7, 9, 0
+//            int[] myArr = {1, 3, 5, 7, 9, 0};
+//            // start a foreach loop that iterates over each element 'num' in the 'myArr' array
+//            for (int num : myArr) {
+//                // Print out each element in the array
+//                System.out.println(num);
+//            }
+//
+//          // declare and initialize a string array called names with values "john", "erickson", "billy bob"
+//          String[] names = {"john", "erickson", "billy bob"};
+//          // start a foreach loop that iterates over each element 'theNames' in the 'names' array
+//          for (String theNames : names) {
+//              // print out each element in the array
+//              System.out.println(theNames);
+//          }
+//      }
+//  }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //         Constructors --- Constructor in java is used to create the instance of the class. Constructors are almost similar to methods except for two things:
 //         its name is the same as the class name and it has no return type.
