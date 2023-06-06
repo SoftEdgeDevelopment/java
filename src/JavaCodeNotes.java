@@ -24,6 +24,7 @@ public class JavaCodeNotes {
 //        sout (tab) - System.out.println("Hello World!");
 //        Scanner (scanner name) = new Scanner(System.in);    --- gets user input
 //        ctrl + cmd + l ---  will organize everything to look nicely
+//        TODO - highlights the code for things to do
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //        Data Types ---
 //            ---
