@@ -3,6 +3,7 @@ package unit01.primitive.types.learning05;
 import java.util.Scanner;
 
 public class UserInputTest {
+
     public static void main(String[] args) {
         //practice with user input, scanner and nextLine
         //new Scanner for user input
