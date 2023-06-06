@@ -1,4 +1,4 @@
-package unit02.objects.day05;
+package unit02.objects.learning05;
 
 //new class for House created
 public class House {
