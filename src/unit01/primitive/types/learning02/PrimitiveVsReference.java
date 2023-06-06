@@ -2,6 +2,7 @@ package unit01.primitive.types.learning02;
 
 public class PrimitiveVsReference {
 //practice with primitive types
+
     public static void main(String[] args) {
         int year = 2022;
         String name = "John";
