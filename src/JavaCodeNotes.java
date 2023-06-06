@@ -23,6 +23,7 @@ public class JavaCodeNotes {
 //        psvm (tab) - public static void main (String[] args){}
 //        sout (tab) - System.out.println("Hello World!");
 //        Scanner (scanner name) = new Scanner(System.in);    --- gets user input
+//        ctrl + cmd + l ---  will organize everything to look nicely
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //        Data Types ---
 //            ---
