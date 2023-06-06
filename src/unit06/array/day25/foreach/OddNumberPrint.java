@@ -12,5 +12,14 @@ public class OddNumberPrint {
                 System.out.println(number);
             }
         }
+        //foreach loop to print the even numbers
+                int[] evenNumbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+                for (int number : evenNumbers) {
+                    if (number % 2 == 0) {
+                        System.out.println(number);
+                    }
+                }
+
+
     }
 }
