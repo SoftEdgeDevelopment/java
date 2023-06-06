@@ -1,4 +1,4 @@
-package unit02.objects.day09;
+package unit02.objects.learning09;
 
 public class StringMethods {
     public static void main(String[] args) {
