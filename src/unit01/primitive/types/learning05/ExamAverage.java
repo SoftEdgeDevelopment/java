@@ -3,6 +3,7 @@ package unit01.primitive.types.learning05;
 import java.util.Scanner;
 
 public class ExamAverage {
+
     //multiple user input and display with maths example
     public static void main(String[] args) {
 //        Take student name
