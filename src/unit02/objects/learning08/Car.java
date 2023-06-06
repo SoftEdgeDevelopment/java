@@ -1,4 +1,4 @@
-package unit02.objects.day08;
+package unit02.objects.learning08;
 //new class for car
 public class Car {
     //new private instance variables for color and mileage
