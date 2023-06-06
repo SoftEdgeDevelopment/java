@@ -1,7 +1,6 @@
 package unit01.primitive.types.learning03;
 
 public class QuickReview {
-
     public static void main(String[] args) {
         //new int variable currentYear created
         int currentYear;
