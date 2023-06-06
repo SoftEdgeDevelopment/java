@@ -1,4 +1,4 @@
-package unit02.objects.day08;
+package unit02.objects.learning08;
 //new class for student
 public class Student {
 //    new private instance variables for name, exam 1 result, exam 2 result
