@@ -1,4 +1,4 @@
-package unit02.objects.day06;
+package unit02.objects.learning06;
 
 public class Student {
     //new private variables for name and gpa
