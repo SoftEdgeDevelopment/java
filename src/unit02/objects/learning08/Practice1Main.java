@@ -1,4 +1,4 @@
-package unit02.objects.day08;
+package unit02.objects.learning08;
 //new class for main method
 public class Practice1Main {
     public static void main(String[] args) {
