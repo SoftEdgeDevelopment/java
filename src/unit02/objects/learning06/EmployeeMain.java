@@ -1,4 +1,4 @@
-package unit02.objects.day06;
+package unit02.objects.learning06;
 //new class for main method
 public class EmployeeMain
 {
