@@ -3,6 +3,7 @@ package unit01.primitive.types.learning04;
 import java.util.Scanner;
 
 public class NextLineProblem {
+
     public static void main(String[] args) {
         //get multiple user inputs with nextLine
         //create new Scanner for user input

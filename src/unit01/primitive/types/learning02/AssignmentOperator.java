@@ -1,7 +1,6 @@
 package unit01.primitive.types.learning02;
 
 public class AssignmentOperator {
-
     public static void main(String[] args) {
         //assign variable x the value of 3
         int x =3;

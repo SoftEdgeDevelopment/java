@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning03;
 
 public class DivideByZero {
+
     public static void main(String[] args) {
         //error example when dividing by zero
         //will print out to start

@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning03;
 
 public class TensHundreds {
+
     public static void main(String[] args) {
         //find the value of the tens and the ones digit
         //value is 54

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DoubleInput {
     public static void main(String[] args) {
+
         //get user input and display message with users value
         //create new scanner for user input
         Scanner input = new Scanner(System.in);

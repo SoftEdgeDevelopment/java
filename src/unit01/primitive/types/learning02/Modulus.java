@@ -2,6 +2,7 @@ package unit01.primitive.types.learning02;
 
 public class Modulus {
 //modulus - the remainder after division
+
     public static void main(String[] args) {
         int a = 33;
         int b = 7;

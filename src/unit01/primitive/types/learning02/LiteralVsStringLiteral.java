@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning02;
 
 public class LiteralVsStringLiteral {
+
 //difference between literal vs string literal
     public static void main(String[] args) {
         //numbers 5, and 7 created

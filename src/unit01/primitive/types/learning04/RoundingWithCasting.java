@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning04;
 
 public class RoundingWithCasting {
+
     public static void main(String[] args) {
         //rounding positive numbers
         double x = 35.6;

@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning02;
 
 public class DeclareVariables {
+
     public static void main(String[] args) {
         //different variable types
         //whole number

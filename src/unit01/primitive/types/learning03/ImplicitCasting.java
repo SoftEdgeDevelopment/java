@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning03;
 //practice with casting
 public class ImplicitCasting {
+
     public static void main(String[] args) {
         double num1 = 5.6;
         int num2 = 4 ;

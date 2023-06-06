@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning03;
 
 public class CompoundAssignment {
+
     public static void main(String[] args) {
         //practice compound variable += / *= / %=
         //value of x starts at 3

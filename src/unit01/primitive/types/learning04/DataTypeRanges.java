@@ -1,6 +1,7 @@
 package unit01.primitive.types.learning04;
 
 public class DataTypeRanges {
+
     public static void main(String[] args) {
         //data type max value min value ranges
         //will create a new byte variable - a and will equal to the max value of byte
