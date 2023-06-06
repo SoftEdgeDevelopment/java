@@ -3,6 +3,7 @@ package unit01.primitive.types.learning04;
 import java.util.Scanner;
 
 public class UserInput {
+
     public static void main(String[] args) {
         //prompt user and get user input
         //new Scanner for user input
