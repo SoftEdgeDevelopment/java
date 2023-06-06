@@ -6,7 +6,7 @@ public class FindMax {
         // initialize the maximum value with the first element of the array
         //int max = Integer.MAX_VALUE
         int max = numbers[0];
-        // iterate over each element in the array
+        // for each element (num) in the array (numbers)
         for (int num : numbers) {
             // check if the current number is greater than the current maximum
             if (num > max) {
