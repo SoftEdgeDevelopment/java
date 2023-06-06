@@ -1,5 +1,6 @@
 package unit01.primitive.types.learning03;
 
+
 public class FahrenheitConverter {
     public static void main(String[] args) {
 //        °C = (°F - 32) × 5/9
