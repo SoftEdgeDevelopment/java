@@ -1,4 +1,4 @@
-package unit02.objects.day07;
+package unit02.objects.learning07;
 
 public class House {
     //new private variables for color and address of house
