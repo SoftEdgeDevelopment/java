@@ -1,4 +1,4 @@
-package unit02.objects.day08;
+package unit02.objects.learning08;
 //new class for Rectangle
 //variable in main method - local variable
 //variable that is specific to the class - instance variable
