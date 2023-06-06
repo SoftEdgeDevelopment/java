@@ -1,4 +1,4 @@
-package unit02.objects.day07;
+package unit02.objects.learning07;
 
 //new public class for Phone
 public class Phone {
