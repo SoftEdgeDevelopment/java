@@ -2,6 +2,7 @@ package unit01.primitive.types.learning02;
 
 public class InitializeVariables {
 
+
     //create variables, assign values and print variable to console
     public static void main(String[] args) {
         //new int variable currentYear must be whole number
