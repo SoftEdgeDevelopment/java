@@ -1,7 +1,6 @@
 package unit01.primitive.types.learning02;
 
 public class SwapValues {
-
     public static void main(String[] args) {
         /*
          * swap the values
