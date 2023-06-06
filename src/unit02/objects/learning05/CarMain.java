@@ -1,4 +1,4 @@
-package unit02.objects.day05;
+package unit02.objects.learning05;
 
 //new public class for main
 public class CarMain {
