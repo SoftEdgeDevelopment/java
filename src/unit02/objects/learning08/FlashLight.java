@@ -1,4 +1,4 @@
-package unit02.objects.day08;
+package unit02.objects.learning08;
 //new class for flashlight
 public class FlashLight {
 //    new private instance variable boolen true or false
