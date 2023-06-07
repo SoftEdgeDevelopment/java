@@ -2,7 +2,7 @@ package javaprojects.project05;
 
 import java.util.Scanner;
 
-public class Assignment_05 {
+public class Assignment05 {
     //write a program to reverse a string
     public static void main(String[] args) {
         //new scanner for user input
