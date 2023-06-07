@@ -1,10 +1,17 @@
 package unit06.array.day25.arrayalgorithms;
-//sum of all the elements in the array
+//sum of all the elements in the array and example using extract method
 public class SumOfElements {
     public static void main(String[] args) {
         //new int array for numbers
         int[] numbers = {1, 2, 3, 4, 5,};
         //new int for sum starting at 0
+        int sum = getSum(numbers);
+        //display the total sum
+        System.out.println("The total sum of all elements in the array is " + sum);
+    }
+    //highlight the method, right click - refactor - extract method
+
+    private static int getSum(int[] numbers) {
         int sum = 0;
         //for each element (num) in the array (numbers)
         for (int num : numbers) {
@@ -13,11 +20,8 @@ public class SumOfElements {
             //display the value each time the sum is updated
             System.out.println(sum);
         }
-        //display the total sum
-        System.out.println("The total sum of all elements in the array is " + sum);
+        return sum;
     }
-
-
 
 
 }
