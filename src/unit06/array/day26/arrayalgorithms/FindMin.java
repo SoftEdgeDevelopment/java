@@ -1,6 +1,6 @@
 package unit06.array.day26.arrayalgorithms;
 
-public class FinMin {
+public class FindMin {
     public static void main(String[] args) {
         //new int array for numbers
         int[] numbers = {345,64564,7675,2342,75467567,2334,664};
