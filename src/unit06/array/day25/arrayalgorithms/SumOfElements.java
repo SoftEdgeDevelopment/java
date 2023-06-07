@@ -8,6 +8,8 @@ public class SumOfElements {
         int sum = getSum(numbers);
         //display the total sum
         System.out.println("The total sum of all elements in the array is " + sum);
+        //display the average by the sum divided by the total amount of elements in the array (numbers.length)
+        System.out.println("The average of the elements is " + getSum(numbers)/ numbers.length);
     }
     //highlight the method, right click - refactor - extract method
 
