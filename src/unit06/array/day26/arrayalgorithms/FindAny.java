@@ -11,11 +11,19 @@ public class FindAny {
     }
     //new boolean method true or false if any of the keys are in the array
     public static boolean findAny(int[] arr, int key) {
-        //for each element in the array
-        for (int num : arr) {
-            //if num equals key
-            if(num == key){
-                //true - the element was found
+//        //foreach element in the array
+//        for (int num : arr) {
+//            //if num equals key
+//            if(num == key){
+//                //true - the element was found
+//                return true;
+//            }
+//        }
+
+
+        //another way to write it with fori loop
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] == key){
                 return true;
             }
         }
