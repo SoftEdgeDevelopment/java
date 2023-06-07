@@ -6,6 +6,8 @@ public class FindSum {
         int[] numbers = {34, 64, 27, 23, 75, 234, 66};
         //call to the findSum method for the numbers array
         System.out.println(findSum(numbers));
+        //cast to double and find the sum of the array by calling the findSum method and diving by the length of the array
+        System.out.println((double)findSum(numbers) / numbers.length);
     }
 
     public static int findSum(int[] arr) {
