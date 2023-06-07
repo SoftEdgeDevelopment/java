@@ -1,6 +1,6 @@
 package unit06.array.day26.arrayalgorithms;
 //method to check if any of the elements are in the array
-public class FindAny {
+public class IfAny {
     public static void main(String[] args) {
         //new int array for numbers
         int[] numbers = {1,3,5,7,9,};
