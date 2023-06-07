@@ -25,6 +25,7 @@ public class JavaCodeNotes {
 //        Scanner (scanner name) = new Scanner(System.in);    --- gets user input
 //        ctrl + cmd + l ---  will organize everything to look nicely
 //        TODO - highlights the code for things to do
+//        Extract Method - highlight the method, right click - refactor - extract method - will make the highlighted code into a method
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //        Data Types ---
 //            ---
