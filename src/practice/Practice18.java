@@ -1,6 +1,6 @@
 package practice;
 
-import unit06.array.day24.arrayreview.Student;
+import unit06.array.learning24.arrayreview.Student;
 
 //practice traversing an array in a for loop, and making constructors and objects
 public class Practice18 {
@@ -36,7 +36,7 @@ public class Practice18 {
         //create new array for grades and assign values
         int[] myGrades = {100,97,99};
         //create new student object using array as one parameter and String for the other
-        unit06.array.day24.arrayreview.Student student1 = new Student(myGrades,"John");
+        unit06.array.learning24.arrayreview.Student student1 = new Student(myGrades,"John");
         //create new array for student grades, use student 1 object and call to getGrades method
         int[] studentGrades = student1.getGrades();
         //display the studentGrades at index value 2
