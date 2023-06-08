@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //comparing values between strings creating new objects
 public class StringComparison {
     public static void main(String[] args) {
