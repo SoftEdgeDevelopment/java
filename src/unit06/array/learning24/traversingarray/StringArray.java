@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 
 public class StringArray {
     //traverse each String element and print their length to the console
