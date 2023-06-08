@@ -1,4 +1,4 @@
-package unit05.classes.oop.day20.constructors;
+package unit05.classes.oop.learning20.constructors;
 //create constructors with and without parameters, override to string and display the information of the house
 public class House {
     //create house class with instance variables for color, address, price, is rented
