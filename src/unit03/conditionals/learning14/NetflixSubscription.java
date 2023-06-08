@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 //if else example with boolean and ternary operator
 public class NetflixSubscription {
     public static void main(String[] args) {
