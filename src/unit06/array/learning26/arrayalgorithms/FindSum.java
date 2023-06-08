@@ -1,4 +1,4 @@
-package unit06.array.day26.arrayalgorithms;
+package unit06.array.learning26.arrayalgorithms;
 
 public class FindSum {
     public static void main(String[] args) {
