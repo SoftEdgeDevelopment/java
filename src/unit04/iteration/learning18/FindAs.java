@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //method to find how many of a specific char are contained in a String
 public class FindAs {
     public static void main(String[] args) {
