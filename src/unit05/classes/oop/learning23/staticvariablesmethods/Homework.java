@@ -1,4 +1,4 @@
-package unit05.classes.oop.day23.staticvariablesmethods;
+package unit05.classes.oop.learning23.staticvariablesmethods;
 //calling static variable to make method to increase count
 public class Homework {
     private String subject;
