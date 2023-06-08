@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 //practice boolean light switch on off, true or false
 public class SwitchTurnOn {
     public static void main(String[] args) {
