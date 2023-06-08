@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //for loop to write the sum of the numbers from 1-5
 public class SumOfNumbers {
     public static void main(String[] args) {
