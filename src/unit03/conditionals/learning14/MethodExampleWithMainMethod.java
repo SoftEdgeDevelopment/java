@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 
 //call to different methods within the same class, without making new classes
 public class MethodExampleWithMainMethod {
