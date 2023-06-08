@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //crash example
 public class InfiniteJava {
     public static void main(String[] args) {
