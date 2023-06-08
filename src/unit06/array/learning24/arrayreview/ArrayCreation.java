@@ -1,4 +1,4 @@
-package unit06.array.day24.arrayreview;
+package unit06.array.learning24.arrayreview;
 //practice creating arrays and methods calling to the main class
 public class ArrayCreation {
     public static void main(String[] args) {
