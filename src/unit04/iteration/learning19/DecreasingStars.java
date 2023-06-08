@@ -1,4 +1,4 @@
-package unit04.iteration.day19;
+package unit04.iteration.learning19;
 //inner and outer loop to decrease the amount of stars shown
 public class DecreasingStars {
     public static void main(String[] args) {
