@@ -1,4 +1,4 @@
-package unit06.array.day26.arrayalgorithms;
+package unit06.array.learning26.arrayalgorithms;
 //method to see if there are duplicates of the element contained in the array
 public class FindDuplicates {
     public static void main(String[] args) {
