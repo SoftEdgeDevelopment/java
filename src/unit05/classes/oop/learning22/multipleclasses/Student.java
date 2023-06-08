@@ -1,4 +1,4 @@
-package unit05.classes.oop.day22.multipleclasses;
+package unit05.classes.oop.learning22.multipleclasses;
 //student class created with private instance variables for name, gpa, and address using the address class,  constructor and getters and setters to send to the main
 public class Student {
     //create new private instance variables
