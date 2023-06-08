@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //example of an issue with nesting if statement
 public class IfElseDilemma {
     public static void main(String[] args) {
