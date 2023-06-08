@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 
 public class StringTraversal {
     public static void main(String[] args) {
