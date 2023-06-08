@@ -1,4 +1,4 @@
-package unit06.array.day26.arrayalgorithms;
+package unit06.array.learning26.arrayalgorithms;
 
 //checks if all the searched elements contained in the array are the same
 public class IfAll {
