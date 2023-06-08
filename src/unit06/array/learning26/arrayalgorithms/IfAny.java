@@ -1,4 +1,4 @@
-package unit06.array.day26.arrayalgorithms;
+package unit06.array.learning26.arrayalgorithms;
 //method to check if any of the elements are in the array
 public class IfAny {
     public static void main(String[] args) {
