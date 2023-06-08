@@ -1,4 +1,4 @@
-package unit05.classes.oop.day21.gettersandsetters;
+package unit05.classes.oop.learning21.gettersandsetters;
 //Car class created with getters to call from the main and setters to change the values of parameters of the object in the main
 public class Car {
     //create private variables for color, year, mileage
