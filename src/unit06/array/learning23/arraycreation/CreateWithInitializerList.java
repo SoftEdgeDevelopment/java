@@ -1,4 +1,4 @@
-package unit06.array.day23.arraycreation;
+package unit06.array.learning23.arraycreation;
 //practice initializing different types of arrays
 public class CreateWithInitializerList {
     public static void main(String[] args) {
