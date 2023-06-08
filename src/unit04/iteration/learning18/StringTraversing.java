@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //practice String transversal, charAt, and writing a String letter by letter backwards
 public class StringTraversing {
     public static void main(String[] args) {
