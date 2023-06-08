@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //practice for if else statement
 public class IfElsePractice {
     public static void main(String[] args) {
