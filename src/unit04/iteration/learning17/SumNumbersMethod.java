@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //        Turn it into a method to
 //        return the sum of numbers
 //        starting from 1 to the given parameter value.
