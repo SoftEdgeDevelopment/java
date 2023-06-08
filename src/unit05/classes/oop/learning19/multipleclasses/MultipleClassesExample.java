@@ -1,4 +1,4 @@
-package unit05.classes.oop.day19.multipleclasses;
+package unit05.classes.oop.learning19.multipleclasses;
 
 public class MultipleClassesExample {
     private int x;
