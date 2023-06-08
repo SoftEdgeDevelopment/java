@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //boolean practice if else statement to check for even or odd
 public class EvenOdd {
     public static void main(String[] args) {
