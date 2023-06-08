@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 
 //method to print an array in reverse and called to the main
 public class PrintReverseArray {
