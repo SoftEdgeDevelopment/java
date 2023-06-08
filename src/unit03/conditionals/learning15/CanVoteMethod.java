@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 
 public class CanVoteMethod {
     //call to a different method to check if true or false
