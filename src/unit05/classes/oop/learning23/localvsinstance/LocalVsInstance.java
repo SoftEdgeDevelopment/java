@@ -1,4 +1,4 @@
-package unit05.classes.oop.day23.localvsinstance;
+package unit05.classes.oop.learning23.localvsinstance;
 //the difference between instance local and instance variables
 public class LocalVsInstance {
     //instance variables created in the class belong to class and objects
