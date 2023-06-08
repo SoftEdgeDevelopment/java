@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //nested loop example
 public class NestedLoops {
     public static void main(String[] args) {
