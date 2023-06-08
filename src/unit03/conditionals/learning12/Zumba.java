@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //new class for zumba workout
 public class Zumba {
     //new private variable for steps taken

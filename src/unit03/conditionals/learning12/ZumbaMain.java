@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //main method generate constructor call to different class to get boolean method and display true or false if goal was reached
 public class ZumbaMain {
     public static void main(String[] args) {
