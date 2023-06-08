@@ -1,4 +1,4 @@
-package unit06.array.day25.arrayalgorithms;
+package unit06.array.learning25.arrayalgorithms;
 //method to find the max value index in the array
 public class FindMaxIndex {
     public static void main(String[] args) {
