@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //while loop display a message with a counter until it reaches a certain amount
 
 public class While05Example {
