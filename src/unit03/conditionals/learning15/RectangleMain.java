@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //new class for main method for rectangle
 public class RectangleMain {
 

@@ -1,6 +1,4 @@
-package unit03.conditionals.day15;
-
-import java.util.Objects;
+package unit03.conditionals.learning15;
 
 //new public class for rectangle
 public class Rectangle {
