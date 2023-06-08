@@ -1,4 +1,4 @@
-package unit03.conditionals.day13;
+package unit03.conditionals.learning13;
 //write an if else statement for price of drinks when exceeding a certain quantity
 public class IfExample {
     public static void main(String[] args) {
