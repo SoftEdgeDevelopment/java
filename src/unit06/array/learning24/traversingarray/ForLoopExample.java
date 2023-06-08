@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 //practice traversing and array in a for loop
 
 public class ForLoopExample {
