@@ -1,4 +1,4 @@
-package unit06.array.day24.foreachloop;
+package unit06.array.learning24.foreachloop;
 
 // foreach example for int and string
 public class ForEachExample {
