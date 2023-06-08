@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //while loop with break to write a message a certain amount of times and display when the loop is broken
 public class WriteHelloThreeTimesUsingBreak {
     public static void main(String[] args) {
