@@ -1,4 +1,4 @@
-package unit03.conditionals.day11;
+package unit03.conditionals.learning11;
 
 public class MathPractice {
     //always initiate with (Math.typeOfOperation())
