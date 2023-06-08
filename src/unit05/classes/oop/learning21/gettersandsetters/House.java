@@ -1,4 +1,4 @@
-package unit05.classes.oop.day21.gettersandsetters;
+package unit05.classes.oop.learning21.gettersandsetters;
 //class created with getters to call from the main and setters to change the values of parameters of the object in the main, override to string and display all the information
 //new private variables for color, address, and price
 public class House {
