@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //basic for loop example
 public class ForExample {
     public static void main(String[] args) {
