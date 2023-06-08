@@ -1,4 +1,4 @@
-package unit06.array.day25.foreach;
+package unit06.array.learning25.foreach;
 
 //create a class with private variables, constructors, and getters and setters, create a new array to hold objects, and display object info if the variable is more than a certain amount
 public class Car {
