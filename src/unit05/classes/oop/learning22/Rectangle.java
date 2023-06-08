@@ -1,6 +1,4 @@
-package unit05.classes.oop.day22;
-
-import com.sun.security.jgss.GSSUtil;
+package unit05.classes.oop.learning22;
 
 public class Rectangle {
     //methods that calculate the area of the rectangle, check if the rectangle is a square, and print out the information of the rectangle object
