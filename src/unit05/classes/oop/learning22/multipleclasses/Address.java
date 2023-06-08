@@ -1,4 +1,4 @@
-package unit05.classes.oop.day22.multipleclasses;
+package unit05.classes.oop.learning22.multipleclasses;
 //address class created with private instance variables for house street, city, state, and zip,  constructor and getters and setters to send to the main
 public class Address {
     //new private instance variables to be accessed from anywhere
