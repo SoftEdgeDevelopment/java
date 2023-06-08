@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //checks if a String contains any vowels
 public class VowelsQuestion {
     public static void main(String[] args) {
