@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //for loop to find the sum of the odd numbers 1-9
 public class SumOfOddNumbers {
     public static void main(String[] args) {
