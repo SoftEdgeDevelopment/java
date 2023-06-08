@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //practice with boolean expression true or false
 public class BooleanExpressionsPractice {
     public static void main(String[] args) {
