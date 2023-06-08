@@ -1,4 +1,4 @@
-package unit05.classes.oop.day19.mainmethods;
+package unit05.classes.oop.learning19.mainmethods;
 
 public class ClassB {
     public static void main(String[] args) {
