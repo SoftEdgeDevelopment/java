@@ -1,4 +1,4 @@
-package unit03.conditionals.day11;
+package unit03.conditionals.learning11;
 //practice with math class methods
 public class MathQuestions {
     public static void main(String[] args) {
