@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //write if, else if, else to display different status of the temperature
 public class TemperatureQuestion {
     public static void main(String[] args) {
