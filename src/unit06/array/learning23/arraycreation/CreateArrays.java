@@ -1,4 +1,4 @@
-package unit06.array.day23.arraycreation;
+package unit06.array.learning23.arraycreation;
 //practice creating and initializing different types of arrays
 public class CreateArrays {
     //an array is a container object that holds a fixed number of values of a single type
