@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //password checker to see if String is correct length and if it contains specific chars
 public class PasswordChecker {
 
