@@ -1,4 +1,4 @@
-package unit06.array.day25.foreach;
+package unit06.array.learning25.foreach;
 
 //foreach loop to print each element if the length is a certain amount
 public class WordsLength {
