@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 
 import java.util.Scanner;
 //do while loop to guess a lucky number
