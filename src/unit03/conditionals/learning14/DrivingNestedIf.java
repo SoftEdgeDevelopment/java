@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 
 public class DrivingNestedIf {
     //practice nested loop both ifs must be true for statement to run
