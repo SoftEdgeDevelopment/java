@@ -1,4 +1,4 @@
-package unit06.array.day25.arrayalgorithms;
+package unit06.array.learning25.arrayalgorithms;
 //sum of all the elements in the array and example using extract method
 public class SumOfElements {
     public static void main(String[] args) {
