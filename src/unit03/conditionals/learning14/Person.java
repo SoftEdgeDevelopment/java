@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 //new class with method to call from the MethodExampleWithMainMethod class
 //new class for Person
 public class Person {
