@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 
 import java.util.Scanner;
 //get user input for true or false statement
