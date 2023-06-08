@@ -1,4 +1,4 @@
-package unit03.conditionals.day14;
+package unit03.conditionals.learning14;
 //practice using if else statement with && and isNot
 public class ShortCircuitExample {
     public static void main(String[] args) {
