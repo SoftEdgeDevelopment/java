@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //create a method to get the total cost of a shipment if quantity exceeds a certain amount
 public class SaleAndShipmentQuestion {
     public static void main(String[] args) {
