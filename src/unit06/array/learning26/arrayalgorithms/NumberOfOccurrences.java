@@ -1,4 +1,4 @@
-package unit06.array.day26.arrayalgorithms;
+package unit06.array.learning26.arrayalgorithms;
 
 //methods to return the amount of occurrences in String / int arrays
 public class NumberOfOccurrences {
