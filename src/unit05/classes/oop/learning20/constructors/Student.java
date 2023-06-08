@@ -1,4 +1,4 @@
-package unit05.classes.oop.day20.constructors;
+package unit05.classes.oop.learning20.constructors;
 //example of calling private variables to the main method without generating a constructor (null)
 public class Student {
     //create private variables for the students information
