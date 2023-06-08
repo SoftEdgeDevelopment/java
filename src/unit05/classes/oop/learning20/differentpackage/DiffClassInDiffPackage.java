@@ -1,6 +1,6 @@
-package unit05.classes.oop.day20.differentpackage;
+package unit05.classes.oop.learning20.differentpackage;
 
-import unit05.classes.oop.day20.encapsulation.EncapsulationExample;
+import unit05.classes.oop.learning20.encapsulation.EncapsulationExample;
 
 public class DiffClassInDiffPackage {
     public static void main(String[] args) {
