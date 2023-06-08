@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 //create a new method to print the elements of a given array, and another method to print the elements of the given array backwards
 public class PrintArray {
     //method to print the elements of a given array
