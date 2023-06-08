@@ -1,6 +1,6 @@
-package unit05.classes.oop.day19.classaccesslevel.package02;
+package unit05.classes.oop.learning19.classaccesslevel.package02;
 
-import unit05.classes.oop.day19.classaccesslevel.package01.PublicLevelClass;
+import unit05.classes.oop.learning19.classaccesslevel.package01.PublicLevelClass;
 
 public class MainClassPackage2 {
     public static void main(String[] args) {
