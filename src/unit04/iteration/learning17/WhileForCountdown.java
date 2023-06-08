@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 /*
         Write two countdown programs counting from 10 to 0
         one with a while loop
