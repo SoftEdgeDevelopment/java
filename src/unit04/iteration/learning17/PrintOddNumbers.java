@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //for loops to print odd and even numbers to console
 public class PrintOddNumbers {
     public static void main(String[] args) {
