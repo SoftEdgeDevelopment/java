@@ -1,4 +1,4 @@
-package unit05.classes.oop.day22.multipleclasses;
+package unit05.classes.oop.learning22.multipleclasses;
 //practice creating multiple classes with objects to be used as instance variables, parameters, and be returned as return values
 //main class created to call all the other classes and methods to and run the code
 public class MainClass {
