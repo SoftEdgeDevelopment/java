@@ -1,4 +1,4 @@
-package unit03.conditionals.day13;
+package unit03.conditionals.learning13;
 
 import java.util.Scanner;
 //prompt user for grade and use if, else if, else statement to see if they are passing
