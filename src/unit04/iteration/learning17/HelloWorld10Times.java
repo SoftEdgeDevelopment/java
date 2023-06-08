@@ -1,4 +1,4 @@
-package unit04.iteration.day17;
+package unit04.iteration.learning17;
 //basic for loop to print something to console a certain number of times
 public class HelloWorld10Times {
     public static void main(String[] args) {
