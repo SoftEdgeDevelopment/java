@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //while loop for a counter to display the total of amount of numbers
 public class SumOfFirstFiveNumbers {
     public static void main(String[] args) {
