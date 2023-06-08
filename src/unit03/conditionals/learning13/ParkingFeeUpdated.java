@@ -1,4 +1,4 @@
-package unit03.conditionals.day13;
+package unit03.conditionals.learning13;
 //if, else if, else practice for parking fee if exceeding different amounts
 public class ParkingFeeUpdated {
     public static void main(String[] args) {
