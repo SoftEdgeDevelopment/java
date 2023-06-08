@@ -1,4 +1,4 @@
-package unit05.classes.oop.day20.encapsulation;
+package unit05.classes.oop.learning20.encapsulation;
 
 public class EncapsulationExample {
     private int privateInt; //only accessed within the package

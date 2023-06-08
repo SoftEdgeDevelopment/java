@@ -1,4 +1,4 @@
-package unit05.classes.oop.day20.encapsulation;
+package unit05.classes.oop.learning20.encapsulation;
 //examples of what can and cannot be reached from different class / package
 public class DifferentClass {
     public static void main(String[] args) {
