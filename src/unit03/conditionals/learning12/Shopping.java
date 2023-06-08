@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 
 import java.util.Scanner;
 //prompt user for quantity and give price discount if exceeding a certain amount
