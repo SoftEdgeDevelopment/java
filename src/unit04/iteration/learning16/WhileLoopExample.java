@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //how a while loop works
 public class WhileLoopExample {
     public static void main(String[] args) {
