@@ -1,4 +1,4 @@
-package unit05.classes.oop.day21.gettersandsetters;
+package unit05.classes.oop.learning21.gettersandsetters;
 
 public class MainClass {
     public static void main(String[] args) {
