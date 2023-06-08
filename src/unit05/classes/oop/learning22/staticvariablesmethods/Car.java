@@ -1,4 +1,4 @@
-package unit05.classes.oop.day22.staticvariablesmethods;
+package unit05.classes.oop.learning22.staticvariablesmethods;
 
 //showing the different between static(local) and instance variables with constructor and getter
 public class Car {
