@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //call to a different method using a while loop to get the target reached goal of years passed after investment
 public class InvestmentMethod {
     public static void main(String[] args) {
