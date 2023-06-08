@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //new class for Shop
 public class Shop {
     //new private variable for price

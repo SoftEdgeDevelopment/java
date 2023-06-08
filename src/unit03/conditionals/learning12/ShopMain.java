@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //main method to get user input to display information from other classes using if statement
 import java.util.Scanner;
 
