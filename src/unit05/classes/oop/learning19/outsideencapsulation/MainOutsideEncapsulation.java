@@ -1,6 +1,6 @@
-package unit05.classes.oop.day19.outsideencapsulation;
+package unit05.classes.oop.learning19.outsideencapsulation;
 
-import unit05.classes.oop.day19.encapsulation.EncapsulationExample;
+import unit05.classes.oop.learning19.encapsulation.EncapsulationExample;
 //OutsideEncapsulation - examples of what variables can be reached and cannot be reached outside of package
 public class MainOutsideEncapsulation {
     //call to the encapsulation package
