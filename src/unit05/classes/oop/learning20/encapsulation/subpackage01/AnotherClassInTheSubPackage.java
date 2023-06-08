@@ -1,6 +1,6 @@
-package unit05.classes.oop.day20.encapsulation.subpackage01;
+package unit05.classes.oop.learning20.encapsulation.subpackage01;
 
-import unit05.classes.oop.day20.encapsulation.EncapsulationExample;
+import unit05.classes.oop.learning20.encapsulation.EncapsulationExample;
 
 public class AnotherClassInTheSubPackage {
 
