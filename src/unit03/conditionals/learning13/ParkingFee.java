@@ -1,4 +1,4 @@
-package unit03.conditionals.day13;
+package unit03.conditionals.learning13;
 //write an if else statement for parking fee rates when exceeding a certain amount of time
 public class ParkingFee {
     public static void main(String[] args) {
