@@ -1,6 +1,4 @@
-package unit05.classes.oop.day21.gettersandsetters;
-
-import java.util.Scanner;
+package unit05.classes.oop.learning21.gettersandsetters;
 
 //class created with getters to call from the main and setters to change the values of parameters of the object in the main and string override, display all the information of the object
 public class Employee {
