@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 
 //print arrays on the same line with a space between elements
 public class ArrayPrintSameLine {
