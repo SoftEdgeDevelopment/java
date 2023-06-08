@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //for loop to check if a number is prime or not
 import java.util.Scanner;
 
