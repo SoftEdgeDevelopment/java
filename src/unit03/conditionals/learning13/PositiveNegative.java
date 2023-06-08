@@ -1,4 +1,4 @@
-package unit03.conditionals.day13;
+package unit03.conditionals.learning13;
 
 import java.util.Scanner;
 //get user input and check if, else if, else for if the number is positive, negative, or zero
