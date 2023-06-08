@@ -1,4 +1,4 @@
-package unit05.classes.oop.day20.constructors;
+package unit05.classes.oop.learning20.constructors;
 //making constructor with no parameters, assigning variables, override to string, create object and call to main
 public class Car {
     //new private variables for car info
