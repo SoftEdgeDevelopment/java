@@ -1,4 +1,4 @@
-package unit04.iteration.day18;
+package unit04.iteration.learning18;
 //nested loop practice
 public class NestedMadeUpQuestion {
     public static void main(String[] args) {
