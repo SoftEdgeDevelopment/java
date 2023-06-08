@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 
 import java.util.Scanner;
 //getting the correct password with a do while loop
