@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 //true or false practice with math values
 public class DebuggerPractice {
     public static void main(String[] args) {
