@@ -12,6 +12,7 @@ public class Assignment05 {
         //new String for name to store user input
         String name = input.nextLine();
         //call to the getReversedString method with the name
+        System.out.print("The name in reversed is : ");
         getReversedString(name);
     }
     //new void method to get the reversed version of a String
