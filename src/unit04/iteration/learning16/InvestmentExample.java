@@ -1,4 +1,4 @@
-package unit04.iteration.day16;
+package unit04.iteration.learning16;
 //do while loop to calculate amount of years taken to get a certain amount based on interest rate
 public class InvestmentExample {
     public static void main(String[] args) {
