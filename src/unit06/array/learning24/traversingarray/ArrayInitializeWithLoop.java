@@ -1,4 +1,4 @@
-package unit06.array.day24.traversingarray;
+package unit06.array.learning24.traversingarray;
 
 public class ArrayInitializeWithLoop {
     public static void main(String[] args) {
