@@ -1,4 +1,4 @@
-package unit06.array.day25.arrayalgorithms;
+package unit06.array.learning25.arrayalgorithms;
 //find the min value in the array and print it
 public class FindMin {
     public static void main(String[] args) {
