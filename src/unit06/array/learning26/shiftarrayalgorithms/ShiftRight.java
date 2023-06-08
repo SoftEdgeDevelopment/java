@@ -1,4 +1,4 @@
-package unit06.array.day26.shiftarrayalgorithms;
+package unit06.array.learning26.shiftarrayalgorithms;
 //method to shift all elements in the array to the right
 public class ShiftRight {
     public static void main(String[] args) {
