@@ -1,4 +1,4 @@
-package unit06.array.day24.arrayreview;
+package unit06.array.learning24.arrayreview;
 //practice with arrays
 public class Person {
     private String[] friends;
