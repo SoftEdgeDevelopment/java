@@ -1,4 +1,4 @@
-package unit03.conditionals.day12;
+package unit03.conditionals.learning12;
 
 import java.util.Scanner;
 //practice with prompting user and display results with if statements
