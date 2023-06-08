@@ -1,4 +1,4 @@
-package unit03.conditionals.day15;
+package unit03.conditionals.learning15;
 //quick if, else if, else review for maths
 public class SuperQuestion {
     public static void main(String[] args) {
