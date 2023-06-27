@@ -26,7 +26,7 @@ public class ReverseArray {
         // iterate over each index i of firstArray
         for (int i = 0; i < firstArray.length; i++) {
             // assign the value of firstArray[i] to the matching index in secondArray
-            // the index in secondArray is calculated as secondArray.length - 1 - i
+            // the index in secondArray is the length of the array - 1 (last index) minus each index (0,1,2..) to print the array in reverse
             secondArray[secondArray.length - 1 - i] = firstArray[i];
         }
         // return the reversed array
