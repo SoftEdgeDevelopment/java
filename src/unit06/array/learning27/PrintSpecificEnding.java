@@ -5,11 +5,11 @@ public class PrintSpecificEnding {
         //create string array with words
         String[] arr = {"Captain", "Caption", "Ration","Lake","Key","Vacation"};
         //call to the EndingInIon method using the string array to check which words end in "ion"
-        EndingInIon(arr);
+        endingInIon(arr);
     }
 
     //new public static method to print the words ending in ion of the string array
-    public static void EndingInIon(String[] arr) {
+    public static void endingInIon(String[] arr) {
         //for each word in the array
         for (String word : arr) {
             //if the word ends with "ion"
