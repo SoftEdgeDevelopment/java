@@ -1,4 +1,5 @@
 package unit06.array.learning27;
+
 //method to return the index value of the largest element in an array
 public class FindMaxElementIndex {
     public static void main(String[] args) {
@@ -14,12 +15,12 @@ public class FindMaxElementIndex {
         //starting from 0 until the array length, check each index
         for (int i = 0; i < arr.length; i++) {
             //if the index in the array is greater than the initial max element(0)
-            if(arr[i] > arr[indexOfMaxElement]){
+            if (arr[i] > arr[indexOfMaxElement]) {
                 //update the max element to the value of the arrays index
                 indexOfMaxElement = arr[i];
             }
         }
-        //return the index of the max element to the metho
+        //return the index of the max element to the method
         return indexOfMaxElement;
     }
 }
