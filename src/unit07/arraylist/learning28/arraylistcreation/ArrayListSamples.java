@@ -1,7 +1,7 @@
 package unit07.arraylist.learning28.arraylistcreation;
 
 import java.util.ArrayList;
-
+//types of array lists
 public class ArrayListSamples {
     public static void main(String[] args) {
         //array list created by declaring ArrayList followed by <>, inside <> declare the type it is (CAPS FULLY SPELLED) (Integer, Double, Boolean...etc), name the array list and create a new
