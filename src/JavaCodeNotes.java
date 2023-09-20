@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class JavaCodeNotes {
 //    useful notes for java -
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -640,6 +644,100 @@ public class JavaCodeNotes {
 //        return arr;
 //    }
 //}
+//   ------------------ Array Lists ------------------------------\
+//
+//
+//    //create new array list
+//    ArrayList<Integer> numbers = new ArrayList<>();
+//    //assign elements to the list
+//        numbers.add(10);
+//        numbers.add(20);
+//        numbers.add(30);
+//        System.out.println(numbers);
+//    //send numbers as a collection to array list numbers2
+//    ArrayList<Integer> numbers2 = new ArrayList<>(numbers);
+//        System.out.println(numbers2);
+//    //Arrays.asList() method returns a collection
+//    ArrayList<Integer> numbers3 = new ArrayList<>(Arrays.asList(30,40,50,60));
+//        System.out.println(numbers3);
+//
+//    //creating new string array for words
+//    String[] wordsArray = {"a", "an", "an", "at"};
+//    //creating array list with collection from wordsArray
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList(wordsArray));
+//    //adding new words into the array list
+//        words.add(4,"and");
+//        words.add(5, "all");
+//        System.out.println(words);
+//
+//
+//    //array list using List.of
+//    ArrayList<String> cities = new ArrayList<>(List.of("Seattle", "San Francisco", "Los Angeles", "Chicago"));
+//        System.out.println(cities);
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList("Hi", "Bye", "Why"));
+//        System.out.println(words);
+//    //gets the second index in the array
+//        System.out.println(words.get(2));
+//    //find the index using a search word
+//        System.out.println(words.indexOf("Why"));
+//ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+//        System.out.println(numbers);
+//    //will return -1 if nothing is there
+//        System.out.println(numbers.indexOf("5"));
+//    //will return 4 because that is the index location
+//        System.out.println(numbers.indexOf(5));
+//    //checks if its contained within the list
+//        System.out.println(words.contains("Hi"));
+//        System.out.println(words.contains("Yes"));
+//        System.out.println(words);
+//    //clears the array list
+//        words.clear();
+//        System.out.println(words.isEmpty());
+//    //add words to the list
+//        words.add("Reset");
+//        words.add("List");
+//        System.out.println(words);
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList("Hi", "Bye", "Yes"));
+//    //gets the size of the array list
+//        System.out.println(words.size());
+//    //gets the last word in the array list
+//        System.out.println(words.get(words.size()-1));
+//ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "Toronto"));
+//        System.out.println(cities);
+//    //changes the name of index 0 in the array list
+//        cities.set(0,"Renton");
+//        System.out.println(cities);
+//    //changes and displays the name of index 1 in the array list - displays which one is being changed
+//        System.out.println(cities.set(1,"Seattle"));
+//        System.out.println(cities);
+
+// method to remove indexes / elements from array list
+//ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "Toronto"));
+//        System.out.println("cities before being removed: " + cities);
+//    //removes index from array list
+//        cities.remove(0);
+//        System.out.println("cities after index removal: " +cities);
+//    //element removed from array list and displayed
+//        System.out.println("element removed: " + cities.remove(0));
+//        System.out.println("cities remaining after removal: " +cities);
+//    //name doesn't exist so nothing will change
+//        cities.remove("this");
+//        System.out.println(cities);
+//
+//
+//    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(11,22,33,44,55,66,77));
+//        System.out.println("numbers: " + numbers);
+//    //remove index 3
+//        numbers.remove(3);
+//        System.out.println("numbers after removing index 3: " + numbers);
+//    //trying to remove the element 33 from the array list will result in failure
+//    //numbers.remove(33);
+//    //remove as an object using Integer.valueOf()
+//        numbers.remove(Integer.valueOf(33));
+//        System.out.println("numbers after removing element 33 using valueOf: " +numbers);
+//    //removes multiple entries searching from the array list
+//        numbers.removeAll(Arrays.asList(5,10,15,22,25,66,98));
+//        System.out.println("numbers after removing multiple indexes " +numbers);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
