@@ -712,7 +712,7 @@ public class JavaCodeNotes {
 //        System.out.println(cities);
 
 // method to remove indexes / elements from array list
-//    ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "Toronto"));
+//ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "Toronto"));
 //        System.out.println("cities before being removed: " + cities);
 //    //removes index from array list
 //        cities.remove(0);
@@ -720,6 +720,21 @@ public class JavaCodeNotes {
 //    //element removed from array list and displayed
 //        System.out.println("element removed: " + cities.remove(0));
 //        System.out.println("cities remaining after removal: " +cities);
+//    //name doesn't exist so nothing will change
+//        cities.remove("this");
+//        System.out.println(cities);
+//
+//
+//    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(11,22,33,44,55,66,77));
+//        System.out.println("numbers: " + numbers);
+//    //remove index 3
+//        numbers.remove(3);
+//        System.out.println("numbers after removing index 3: " + numbers);
+//    //trying to remove the element 33 from the array list will result in failure
+//    //numbers.remove(33);
+//    //remove as an object using Integer.valueOf()
+//        numbers.remove(Integer.valueOf(33));
+//        System.out.println("numbers after removing element 33 using valueOf: " +numbers);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
