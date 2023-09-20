@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class JavaCodeNotes {
 //    useful notes for java -
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -640,6 +644,59 @@ public class JavaCodeNotes {
 //        return arr;
 //    }
 //}
+//   ------------------ Array Lists ------------------------------\
+//
+//
+//    //create new array list
+//    ArrayList<Integer> numbers = new ArrayList<>();
+//    //assign elements to the list
+//        numbers.add(10);
+//        numbers.add(20);
+//        numbers.add(30);
+//        System.out.println(numbers);
+//    //send numbers as a collection to array list numbers2
+//    ArrayList<Integer> numbers2 = new ArrayList<>(numbers);
+//        System.out.println(numbers2);
+//    //Arrays.asList() method returns a collection
+//    ArrayList<Integer> numbers3 = new ArrayList<>(Arrays.asList(30,40,50,60));
+//        System.out.println(numbers3);
+//
+//    //creating new string array for words
+//    String[] wordsArray = {"a", "an", "an", "at"};
+//    //creating array list with collection from wordsArray
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList(wordsArray));
+//    //adding new words into the array list
+//        words.add(4,"and");
+//        words.add(5, "all");
+//        System.out.println(words);
+//
+//
+//    //array list using List.of
+//    ArrayList<String> cities = new ArrayList<>(List.of("Seattle", "San Francisco", "Los Angeles", "Chicago"));
+//        System.out.println(cities);
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList("Hi", "Bye", "Why"));
+//        System.out.println(words);
+//    //gets the second index in the array
+//        System.out.println(words.get(2));
+//    //find the index using a search word
+//        System.out.println(words.indexOf("Why"));
+//ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+//        System.out.println(numbers);
+//    //will return -1 if nothing is there
+//        System.out.println(numbers.indexOf("5"));
+//    //will return 4 because that is the index location
+//        System.out.println(numbers.indexOf(5));
+//    //checks if its contained within the list
+//        System.out.println(words.contains("Hi"));
+//        System.out.println(words.contains("Yes"));
+//        System.out.println(words);
+//    //clears the array list
+//        words.clear();
+//        System.out.println(words.isEmpty());
+//    //add words to the list
+//        words.add("Reset");
+//        words.add("List");
+//        System.out.println(words);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
