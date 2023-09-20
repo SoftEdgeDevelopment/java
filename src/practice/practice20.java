@@ -21,6 +21,9 @@ public class practice20 {
                 evenNumbers.add(i);
             }
         }
+        //another way to write it
+        //for (int i = 0; i <= 100; i = i + 2);
+        //evenNumbers.add(i);
         //return the evenNumbers array list to the createEvenNumbers method
         return  evenNumbers;
     }
