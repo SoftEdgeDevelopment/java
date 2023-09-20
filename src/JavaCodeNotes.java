@@ -710,6 +710,16 @@ public class JavaCodeNotes {
 //    //changes and displays the name of index 1 in the array list - displays which one is being changed
 //        System.out.println(cities.set(1,"Seattle"));
 //        System.out.println(cities);
+
+// method to remove indexes / elements from array list
+//    ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "Toronto"));
+//        System.out.println("cities before being removed: " + cities);
+//    //removes index from array list
+//        cities.remove(0);
+//        System.out.println("cities after index removal: " +cities);
+//    //element removed from array list and displayed
+//        System.out.println("element removed: " + cities.remove(0));
+//        System.out.println("cities remaining after removal: " +cities);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
