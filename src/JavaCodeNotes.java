@@ -697,6 +697,11 @@ public class JavaCodeNotes {
 //        words.add("Reset");
 //        words.add("List");
 //        System.out.println(words);
+//    ArrayList<String> words = new ArrayList<>(Arrays.asList("Hi", "Bye", "Yes"));
+//    //gets the size of the array list
+//        System.out.println(words.size());
+//    //gets the last word in the array list
+//        System.out.println(words.get(words.size()-1));
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
