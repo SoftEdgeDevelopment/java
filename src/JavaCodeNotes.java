@@ -735,6 +735,9 @@ public class JavaCodeNotes {
 //    //remove as an object using Integer.valueOf()
 //        numbers.remove(Integer.valueOf(33));
 //        System.out.println("numbers after removing element 33 using valueOf: " +numbers);
+//    //removes multiple entries searching from the array list
+//        numbers.removeAll(Arrays.asList(5,10,15,22,25,66,98));
+//        System.out.println("numbers after removing multiple indexes " +numbers);
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
