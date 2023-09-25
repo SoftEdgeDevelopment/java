@@ -22,15 +22,14 @@ public class RemovingProblem {
                 numbersGreaterThan100.add(numbers.get(i));
             }
         }
+
+        //different method that does the same thing without creating a new array list to store the numbers
         for(int i = 0; i < numbers.size(); i++) {
             if (numbers.get(i) <= 100) {
                 numbers.remove(i);
                 i--;
             }
         }
-
-
-
         System.out.println("different method numbers greater than 100: " + numbers);
         System.out.println("all numbers greater than 100: " + numbersGreaterThan100);
     }
