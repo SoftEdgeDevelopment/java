@@ -32,5 +32,19 @@ public class RemovingProblem {
         }
         System.out.println("different method numbers greater than 100: " + numbers);
         System.out.println("all numbers greater than 100: " + numbersGreaterThan100);
+        //repeats the displayed text for count number of times
+        System.out.println("-".repeat(30));
+        //add more numbers to the array list
+        numbers.add(12);
+        numbers.add(78);
+        numbers.add(113);
+        System.out.println("updated numbers after adding more: "+numbers);
+        for(int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) <= 100) {
+                numbers.remove(i);
+                i--;
+            }
+        }
+        System.out.println("updated greater than 100 numbers after adding more: "+ numbers);
     }
 }
