@@ -7,11 +7,16 @@ public class practice20 {
         //create an array list calling to the createEvenNumbers() method to fill the numbers in the list
         ArrayList<Integer> numbers = createEvenNumbers();
         //display the numbers from the array list
-        System.out.println(numbers);
+        System.out.println("even numbers: "+numbers);
         //create new array list calling to the odd numbers method
         ArrayList<Integer> numbers2 = createOddNumbers();
         //display the odd numbers in the array list
-        System.out.println(numbers2);
+        System.out.println("odd numbers: "+numbers2);
+        ArrayList<Integer> sumArrayEven = new ArrayList<>();
+        //another way to add all elements from another array list
+        sumArrayEven.addAll(numbers);
+        System.out.println("another way to add all elements from another array list "+ sumArrayEven);
+
 
     }
 
