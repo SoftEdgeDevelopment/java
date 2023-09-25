@@ -1,13 +1,17 @@
 package practice;
 
 import java.util.ArrayList;
-//practice array list method to return even numbers to an array list
+//practice array list methods to return even and odd numbers to an array list
 public class practice20 {
     public static void main(String[] args) {
         //create an array list calling to the createEvenNumbers() method to fill the numbers in the list
         ArrayList<Integer> numbers = createEvenNumbers();
         //display the numbers from the array list
         System.out.println(numbers);
+        //create new array list calling to the odd numbers method
+        ArrayList<Integer> numbers2 = createOddNumbers();
+        //display the odd numbers in the array list
+        System.out.println(numbers2);
 
     }
 
@@ -26,5 +30,16 @@ public class practice20 {
         //evenNumbers.add(i);
         //return the evenNumbers array list to the createEvenNumbers method
         return  evenNumbers;
+    }
+
+    //array list method to return all odd numbers 0-100
+    public static ArrayList<Integer> createOddNumbers(){
+        ArrayList<Integer> oddNumbers = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            if (i % 2 != 0){
+                oddNumbers.add(i);
+            }
+        }
+        return oddNumbers;
     }
 }
