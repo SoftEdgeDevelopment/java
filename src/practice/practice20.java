@@ -35,11 +35,14 @@ public class practice20 {
     //array list method to return all odd numbers 0-100
     public static ArrayList<Integer> createOddNumbers(){
         ArrayList<Integer> oddNumbers = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             if (i % 2 != 0){
                 oddNumbers.add(i);
             }
         }
+        //another way to write it
+        //for (int i = 100; i <= 0; i = i + 2);
+        //evenNumbers.add(i);
         return oddNumbers;
     }
 }
