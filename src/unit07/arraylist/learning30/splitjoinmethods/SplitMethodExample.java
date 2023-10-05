@@ -1,4 +1,4 @@
-package unit07.arraylist.learning30.linearsearch;
+package unit07.arraylist.learning30.splitjoinmethods;
 
 import java.util.Arrays;
 
