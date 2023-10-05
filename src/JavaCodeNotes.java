@@ -1,10 +1,4 @@
-import unit07.arraylist.learning30.linearsearch.Student;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class JavaCodeNotes {
 //    useful notes for java -
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //  --- VOCABULARY / TERMS / HELPFUL THINGS ---
