@@ -1193,6 +1193,7 @@
 //    }
 //
 //}
+// ---------------- TODO Arrays methods ------------------------
 //------------------Arrays Sorting, Arrays toString, Binary Search Method
 //method to sort arrays
 //
@@ -1264,6 +1265,7 @@
 //        System.out.println("index of search key is: "+Collections.binarySearch(numbers,6));
 //    }
 //}
+// -------------------- TODO Collections Methods -----------------------
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //----------- 2D Arrays --------
 // arrays that store arrays
