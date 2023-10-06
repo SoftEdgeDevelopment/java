@@ -1,4 +1,4 @@
-package unit08.twod.arrays.learning31;
+package unit08.twod.arrays.learning31.twodarraycreation;
 
 //how to make a 2d array
 
