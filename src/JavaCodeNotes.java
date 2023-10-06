@@ -132,6 +132,23 @@
 //      --
 //      //4 is the starting index location, the random numbers will be between 5 total values starting from 4 (4,5,6,7,8) 8 is the highest possible number
 //      System.out.println((int) (Math.random() * 5) + 4);
+//
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+//       method to parse to do math with Strings
+
+//public class ParseIntMethod {
+//    public static void main(String[] args) {
+//        String numberString1 = "34";
+//        String numberString2 = "35";
+//        //will display the numbers as a string
+//        System.out.println(numberString1+numberString2);
+//        //parse for int to do math with Strings
+//        int num1 = Integer.parseInt(numberString1);
+//        int num2 = Integer.parseInt(numberString2);
+//        //will add the numbers and display the sum
+//        System.out.println(num1+num2);
+//    }
+//}
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 //        If, Else If, Else ---
 //        ---
@@ -881,5 +898,300 @@
 //            return "Student{" + "name='" + name + '\'' + ", id='" + id + '\'' + '}';
 //        }
 //    }
+// ---methods to store and display different things in arraylists calling to different classes and creating objects---
+//
+//import java.util.ArrayList;
+//
+//public class StudentMain {
+//    public static void main(String[] args) {
+//        //new Student object calling to the student class
+//        unit07.arraylist.learning30.arraylistsinclasses.Student student1 = new unit07.arraylist.learning30.arraylistsinclasses.Student("John Doe", 8);
+//        //add grades to the student to store in the array list
+//        student1.addMathGrade(95);
+//        student1.addMathGrade(67);
+//        student1.addMathGrade(100);
+//        student1.addMathGrade(87);
+//        student1.addMathGrade(38);
+//        student1.addMathGrade(91);
+//        student1.addMathGrade(79);
+//        student1.addMathGrade(70);
+//        student1.addMathGrade(71);
+//        student1.addMathGrade(100);
+//        //call to the getMathGrades method to display all the grades
+//        System.out.println("all of the math scores in the class displayed: " + student1.getMathGrades());
+//        //call to the mathAverage method to display the average of all the grades
+//        System.out.println("the students math score average: " + student1.mathAverage());
+//        student1.gradesAboveSeventy();
+//        System.out.println("grades above 70: "+student1.getMathGrades());
+//        System.out.println("average above 70: "+student1.mathAverage());
+//    }
+//}
+//
+//
+////class for student
+//class Student {
+//    private String name;
+//    private int gradeLevel;
+//    private ArrayList<Integer> mathGrades;
+//
+//    public Student(String name, int gradeLevel) {
+//        this.name = name;
+//        this.gradeLevel = gradeLevel;
+//        //initialize mathGrades with an empty arrayList
+//        this.mathGrades = new ArrayList<>();
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public int getGradeLevel() {
+//        return gradeLevel;
+//    }
+//
+//    public void setGradeLevel(int gradeLevel) {
+//        this.gradeLevel = gradeLevel;
+//    }
+//
+//    public ArrayList<Integer> getMathGrades() {
+//        return mathGrades;
+//    }
+//
+//    public void setMathGrades(ArrayList<Integer> mathGrades) {
+//        this.mathGrades = mathGrades;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "name='" + name + '\'' +
+//                ", gradeLevel=" + gradeLevel +
+//                ", mathGrades=" + mathGrades +
+//                '}';
+//    }
+//
+//    //void method because it doesn't return anything
+//    //method to add a math score into the mathGrades array list
+//    public void addMathGrade(int score) {
+//        //add the score element to the mathGrades array list
+//        mathGrades.add(score);
+//    }
+//
+//    public double mathAverage() {
+//        //new empty double to store the sum;
+//        double sum = 0.0;
+//        //for each number in the mathGrades array list
+//        for (int num : mathGrades) {
+//            //add the number to the sum
+//            sum += num;
+//        }
+//        //get the average by sum / size of the mathGrades array list
+//        return sum / mathGrades.size();
+//    }
+//
+//    public void gradesAboveSeventy() {
+//        for (int i = 0; i < mathGrades.size(); i++) {
+//            //gets the index of the number in the mathGrades arraylist and checks if it's less than 70
+//            if (mathGrades.get(i) <= 70){
+//                //removes the index of the number below 70
+//                mathGrades.remove(i);
+//                //assigned the new index position for the next number
+//                i--;
+//            }
+//        }
+//    }
+//}
+
+
+//// ----calling to multiple classes to create Objects and assign and display values from array lists----
+//
+//import java.util.ArrayList;
+//
+//public class CarMain {
+//    public static void main(String[] args) {
+//        //new Car objects created from the Car class
+//        unit07.arraylist.learning30.arraylistsinclasses.Car car1 = new unit07.arraylist.learning30.arraylistsinclasses.Car("Honda", 1998,150000);
+//        unit07.arraylist.learning30.arraylistsinclasses.Car car2 = new unit07.arraylist.learning30.arraylistsinclasses.Car("Audi", 2003,123000);
+//        unit07.arraylist.learning30.arraylistsinclasses.Car car3 = new unit07.arraylist.learning30.arraylistsinclasses.Car("Mercedes", 2001,132000);
+//        //new CarDealer object created calling to the CarDealer class
+//        unit07.arraylist.learning30.arraylistsinclasses.CarDealer dealer1 = new unit07.arraylist.learning30.arraylistsinclasses.CarDealer("Mikes Autozone", "12345 Street, NY");
+//        //add cars to the dealer using the addCar() method
+//        dealer1.addCar(car1);
+//        dealer1.addCar(car2);
+//        dealer1.addCar(car3);
+//        //call to the carListPrint method to display all the cars information
+//        dealer1.carListPrint();
+//        dealer1.numberOfCars();
+//    }
+//
+//}
+//class Car {
+//    private String make;
+//    private int year;
+//    private int mileage;
+//
+//    public Car(String make, int year, int mileage) {
+//        this.make = make;
+//        this.year = year;
+//        this.mileage = mileage;
+//    }
+//
+//    public String getMake() {
+//        return make;
+//    }
+//
+//    public void setMake(String make) {
+//        this.make = make;
+//    }
+//
+//    public int getYear() {
+//        return year;
+//    }
+//
+//    public void setYear(int year) {
+//        this.year = year;
+//    }
+//
+//    public int getMileage() {
+//        return mileage;
+//    }
+//
+//    public void setMileage(int mileage) {
+//        this.mileage = mileage;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Car{" +
+//                "make='" + make + '\'' +
+//                ", year=" + year +
+//                ", mileage=" + mileage +
+//                '}';
+//    }
+//}
+//class CarDealer{
+//    private String dealerName;
+//    private String dealerAddress;
+//    private ArrayList<unit07.arraylist.learning30.arraylistsinclasses.Car> cars;
+//
+//    public CarDealer(String dealerName, String dealerAddress) {
+//        this.dealerName = dealerName;
+//        this.dealerAddress = dealerAddress;
+//        //assign a new empty array list to the cars to start
+//        this.cars = new ArrayList<>();
+//    }
+//
+//    public String getDealerName() {
+//        return dealerName;
+//    }
+//
+//    public void setDealerName(String dealerName) {
+//        this.dealerName = dealerName;
+//    }
+//
+//    public String getDealerAddress() {
+//        return dealerAddress;
+//    }
+//
+//    public void setDealerAddress(String dealerAddress) {
+//        this.dealerAddress = dealerAddress;
+//    }
+//
+//    public ArrayList<unit07.arraylist.learning30.arraylistsinclasses.Car> getCars() {
+//        return cars;
+//    }
+//
+//    public void setCars(ArrayList<unit07.arraylist.learning30.arraylistsinclasses.Car> cars) {
+//        this.cars = cars;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "carDealer{" +
+//                "dealerName='" + dealerName + '\'' +
+//                ", dealerAddress='" + dealerAddress + '\'' +
+//                ", cars=" + cars +
+//                '}';
+//    }
+//    //method to add a Car object into the cars array list
+//    public void addCar(unit07.arraylist.learning30.arraylistsinclasses.Car car){
+//        cars.add(car);
+//    }
+//
+//    //method to print the cars
+//    public void carListPrint() {
+//        //for each Car object in the cars array list
+//        for (unit07.arraylist.learning30.arraylistsinclasses.Car car : cars) {
+//            //print the car
+//            System.out.println(car);
+//        }
+//    }
+//
+//    //method to print the number of cars
+//    public void numberOfCars(){
+//        //count starting at 0
+//        int count = 0;
+//        //for each Car object in the cars array list
+//        for (unit07.arraylist.learning30.arraylistsinclasses.Car car : cars) {
+//            //increase the count
+//            count++;
+//        }
+//        //return the value of the count to the method
+//        System.out.println(count + " cars in the dealership");
+//    }
+//}
+// -------------------------------String Split and Join Methods -------------------------------------------------------
+//public class JoinMethodExample {
+//    public static void main(String[] args) {
+//        String sentence = "Today I went to the store and bought an apple";
+//        //sentence split
+//        String[] words = sentence.split(" ");
+//        //for each word in the words array list
+//        for (String word : words) {
+//            //use substring to get the index of the first letter and change to upper case
+//            // +
+//            // the word of the substring starting from the first index
+//            System.out.println(word.substring(0,1).toUpperCase() + word.substring(1));
+//        }
+//        //new string for the updated sentence
+//        //delimiter - what goes between each element
+//        //elements - select the elements to join
+//        String updatedSentence = String.join(" ",words);
+//        System.out.println("After Joining: \n" + updatedSentence);
+//
+//        String[] someWords = {"Hello", "World", "of", "Java"};
+//        //uses a "-" to join each word in the array
+//        System.out.println(String.join("-", someWords));
+//    }
+//}
+//
+//}
+//public class SplitMethodExample {
+//    public static void main(String[] args) {
+//
+//        String sentence = "SDET stands for Software Development Engineer in Testing";
+//        //new string array for words calling to sentence.split will split the string based on the regress - (every space)
+//        String[] words = sentence.split(" ");
+//        //this will not work to display the array list
+//        System.out.println(words);
+//        //must do Arrays.toString
+//        System.out.println(Arrays.toString(words));
+//
+//        //another way of writing each word in a for loop
+//        for (String word : words) {
+//            System.out.println(word);
+//        }
+//
+//        //way to display the amount of words in a string
+//        String anotherSentence = "Testing and development goes hand by hand";
+//        String[] newWords = anotherSentence.split(" ");
+//        System.out.println("the length of the array is: " + newWords.length);
+//    }
+//
+//}
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
