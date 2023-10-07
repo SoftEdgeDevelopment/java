@@ -13,8 +13,9 @@ public class TwoDArrayInitializerExamples {
                 {"pear","apple"}
         };
         //print the full 2d array with all the arrays
-        System.out.println(Arrays.deepToString(words));
+        System.out.println("full 2d array: "+Arrays.deepToString(words));
         //print the first array in the 2d array
-        System.out.println(Arrays.deepToString(words[0]));
+        System.out.println("first array: "+Arrays.deepToString(words[0]));
+        System.out.println("first and second array: "+Arrays.deepToString(words[1])+Arrays.deepToString(words[2]));
     }
 }
