@@ -12,6 +12,10 @@ public class TwoDArrayInitializerExamples {
                 {"kiwi", "strawberry", "melon"},
                 {"pear","apple"}
         };
+        //print the length of the 2d array
+        System.out.println("the length of the 2d array is: " + words.length);
+        //display the length of index 0
+        System.out.println("the length of index 0 is: " + words[0].length);
         //print the full 2d array with all the arrays
         System.out.println("full 2d array: "+Arrays.deepToString(words));
         //print the first array in the 2d array
