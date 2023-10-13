@@ -1193,5 +1193,109 @@
 //    }
 //
 //}
+// ---------------- TODO Arrays methods ------------------------
+//------------------Arrays Sorting, Arrays toString, Binary Search Method
+//method to sort arrays
+//
+//import java.util.Arrays;
+//
+//public class ArraysSort {
+//    public static void main(String[] args) {
+//        int[] numbers = {-34, 23, 45, 3245, 234, 52, -3242523, -234235, 2341};
+//        System.out.println("before sorting: ");
+//        //Arrays.toString() to display
+//        System.out.println(Arrays.toString(numbers));
+//        //Arrays.sort() to sort in order
+//        Arrays.sort(numbers);
+//        System.out.println("after sorting: ");
+//        System.out.println(Arrays.toString(numbers));
+//
+//        String[] words = {"awd", "gese","kjiyuk","adrg", "abb", "hjihjt"};
+//        System.out.println("before sorting: ");
+//        System.out.println(Arrays.toString(words));
+//        Arrays.sort(words);
+//        System.out.println("after sorting: ");
+//        System.out.println(Arrays.toString(words));
+//    }
+//
+//}
+//
+////method to convert Arrays.toString() to display
+//
+//public class ArraysToString {
+//    public static void main(String[] args) {
+//        //new array for words
+//        String[] words = {"hi", "bye", "yes", "no"};
+//        //displaying the words will not work like this
+//        System.out.println(words);
+//        //display the words by doing Arrays.toString()
+//        System.out.println(Arrays.toString(words));
+//    }
+//
+//}
+//
+////way to search for the index location of the search key
+//
+//public class BinarySearchMethod {
+//    public static void main(String[] args) {
+//        int[] numbers = {-34, 23, 45, 3245, 234, 52, -3242523, -234235, 2341};
+//        System.out.println(Arrays.toString(numbers));
+//        Arrays.sort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+//        //way to search for the index location of the search key
+//        System.out.println(Arrays.binarySearch(numbers,45));
+//        //returning negative number means it cannot be found
+//        System.out.println(Arrays.binarySearch(numbers,9898));
+//    }
+//}
+////different Collections methods
+//
+//public class SortReverseBinarySearch {
+//    public static void main(String[] args) {
+//        ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(23, 35, 2, 35, 6, 34, 64, 57, 4, 57));
+//        System.out.println("original list: "+numbers);
+//        //import from Collections to sort the numbers
+//        Collections.sort(numbers);
+//        System.out.println("sorted list: "+numbers);
+//        //import from Collections to reverse the numbers
+//        Collections.reverse(numbers);
+//        System.out.println("reversed list"+numbers);
+//        Collections.reverse(numbers);
+//        System.out.println("reversed again for binary search: "+numbers);
+//        System.out.println("index of search key is: "+Collections.binarySearch(numbers,6));
+//    }
+//}
+// -------------------- TODO Collections Methods -----------------------
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+//----------- 2D Arrays --------
+// arrays that store arrays
+////practice with creation and initialization of 2d arrays
+//
+//public class PracticeCreationInitialization {
+//    public static void main(String[] args) {
+//        //String array with 5 indexes of 12 elements
+//        String[][] words = new String[5][12];
+//        //int array with 10 indexes of 2 elements
+//        int[][] numbers = new int[10][2];
+//        //boolean array with 4 indexes of 4 elements
+//        boolean[][] votes = new boolean[4][4];
+//    }
+//}
 
+//method to display information in a 2d array
+
+//public class PrintingTwoDArray {
+//    public static void main(String[] args) {
+//        boolean[][] votes = new boolean[4][2];
+//        String[][] words = new String[2][3];
+//        int[][] numbers = new int[6][3];
+//        //will not display the 2d array
+//        System.out.println(votes);
+//        //must use Arrays.deepToString()
+//        System.out.println(Arrays.deepToString(votes));
+//        System.out.println(Arrays.deepToString(words));
+//        System.out.println(Arrays.deepToString(numbers));
+//
+//    }
+//}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
