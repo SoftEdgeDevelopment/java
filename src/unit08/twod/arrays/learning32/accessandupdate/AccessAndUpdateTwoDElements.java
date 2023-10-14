@@ -2,6 +2,8 @@ package unit08.twod.arrays.learning32.accessandupdate;
 
 //method to combine and change values in a 2d array
 
+import java.sql.SQLOutput;
+
 public class AccessAndUpdateTwoDElements {
     public static void main(String[] args) {
         //new 2d array with assigned arrays values
@@ -28,5 +30,7 @@ public class AccessAndUpdateTwoDElements {
         //change 1116 to 6666
         numbers[4][1] = 6666;
         System.out.println(numbers[4][1]);
+        //how to print the last arrys length of the array in the 2D array
+        System.out.println("the last arrays length in the 2D array is: "+numbers[numbers.length - 1].length);
     }
 }
