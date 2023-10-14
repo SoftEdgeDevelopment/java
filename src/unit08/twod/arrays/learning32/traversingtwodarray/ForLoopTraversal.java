@@ -16,9 +16,9 @@ public class ForLoopTraversal {
         //method to write all contents of a 2d string array in orders with foreach loop
         for (String[] wordArray : words) {
             for (String word : wordArray) {
-                System.out.println(word);
+                System.out.print(word + " ");
             }
-
+            System.out.println();
         }
 
     }
