@@ -2,6 +2,8 @@ package practice;
 
 //traversing 2D array to display all contents in the rows / columns
 
+import java.util.Arrays;
+
 public class Practice25 {
     public static void main(String[] args) {
         //new 2D array for numbers
@@ -23,8 +25,11 @@ public class Practice25 {
             }
             //adding space between each array in the 2d array list
             System.out.println();
-
         }
-
+        System.out.println("--------------Enhanced For Loop------------------");
+        //how to write it with foreach loop
+        for (int[] row : twoDnumbers) {
+            System.out.println(Arrays.toString(row));
+        }
     }
 }
