@@ -1,10 +1,8 @@
-package unit08.twod.arrays.learning32.accessandupdate;
+package practice;
 
-//method to combine and change values in a 2d array
+public class Practice24 {
 
-import java.sql.SQLOutput;
-
-public class AccessAndUpdateTwoDElements {
+    //method to combine and change values in a 2d array
     public static void main(String[] args) {
         //new 2d array with assigned arrays values
         int[][] numbers = {
