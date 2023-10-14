@@ -14,10 +14,14 @@ public class ForLoopTraversal {
         //}
 
         //method to write all contents of a 2d string array in orders with foreach loop
+        //for each String array in the 2d array
         for (String[] wordArray : words) {
+            //for each element in the array
             for (String word : wordArray) {
+                //print the element
                 System.out.print(word + " ");
             }
+            //separate each array
             System.out.println();
         }
 
