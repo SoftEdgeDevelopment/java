@@ -22,9 +22,9 @@ public class FindMinimumValue {
         //assume the minimum number is interger MAX VALUE
         int min = Integer.MAX_VALUE;
         //foreach number array in the numbers 2d array
-        for (int[] row : numbers) {
+        for (int[] numArray : numbers) {
             //foreach number in each array
-            for (int num : row) {
+            for (int num : numArray) {
                 //if the number is less than the min
                 if (num < min) {
                     //assign the new value of the min to the smaller number found
