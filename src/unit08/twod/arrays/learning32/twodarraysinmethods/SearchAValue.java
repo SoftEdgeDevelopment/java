@@ -47,10 +47,20 @@ public class SearchAValue {
     //another method
     public static boolean search2(String[][] arr, String key) {
         for (String[] arrays : arr) {
-            if(Arrays.asList(arrays).indexOf(key)>=0){
+            if(Arrays.asList(arrays).contains(key)){
                 return true;
             }
         }
         return false;
     }
+
+    //one more way to write using .indexOf() instead of using .contains()
+//    public static boolean search2(String[][] arr, String key) {
+//        for (String[] arrays : arr) {
+//            if(Arrays.asList(arrays).indexOf(key)>=0){
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 }
