@@ -1,4 +1,4 @@
-package unit08.twod.arrays.learning32.twodarraysinmethods;
+package unit08.twod.arrays.learning33.twodarraysinmethods;
 
 
 //method to display total number of elements in a 2D array
