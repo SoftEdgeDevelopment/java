@@ -1,4 +1,4 @@
-package unit08.twod.arrays.learning32.twodarrayinitialization;
+package unit08.twod.arrays.learning33.twodarrayinitialization;
 
 import java.util.Arrays;
 
