@@ -1331,4 +1331,113 @@
 //----------------------Inheritance--------------------------------
 //Private instance variables and private methods are not inherited
 //public and protected variables and methods are inherited
+
+//------------------------------------------------------------
+//create new objects from super constructor to display information from different classes
+//-------------tool practice----------------
+//superclass
+//public class Tool {
+//    private String name;
+//    private String brand;
+//
+//    //generate constructor
+//    public Tool(String name, String brand) {
+//        this.name = name;
+//        this.brand = brand;
+//    }
+//
+//    //getters and setters
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public String getBrand() {
+//        return brand;
+//    }
+//
+//    public void setBrand(String brand) {
+//        this.brand = brand;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Tool{" +
+//                "name='" + name + '\'' +
+//                ", brand='" + brand + '\'' +
+//                '}';
+//    }
+//}
+
+//subclass extending Tool
+//public class PowerTool extends Tool {
+//    private double amper;
+//
+//    //generate super() constructor based on Tool
+//    public PowerTool(String name, String brand, double amper) {
+//        super(name, brand);
+//        this.amper = amper;
+//    }
+//
+//    public double getAmper() {
+//        return amper;
+//    }
+//
+//    public void setAmper(double amper) {
+//        this.amper = amper;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "PowerTool{" +
+//                "amper=" + amper +
+//                '}';
+//    }
+//}
+
+//subclass extending PowerTool
+//public class BatteryPowerTool extends PowerTool {
+//    private int batteryWatt;
+//
+//    public BatteryPowerTool(String name, String brand, double amper, int batteryWatt) {
+//        super(name, brand, amper);
+//        this.batteryWatt = batteryWatt;
+//    }
+//
+//    public int getBatteryWatt() {
+//        return batteryWatt;
+//    }
+//
+//    public void setBatteryWatt(int batteryWatt) {
+//        this.batteryWatt = batteryWatt;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "BatteryPowerTool{" +
+//                "batteryWatt=" + batteryWatt +
+//                '}';
+//    }
+//}
+
+//import unit09.inheritance.learning35.toolpractice.BatteryPowerTool;
+//import unit09.inheritance.learning35.toolpractice.PowerTool;
+//import unit09.inheritance.learning35.toolpractice.Tool;
+
+//main method
+//public class ToolMain {
+//    public static void main(String[] args) {
+//        Tool tool1 = new Tool("Saw","Jackson");
+//        PowerTool powerTool1 = new PowerTool("Jack Hammer","Timmy's",12.0);
+//        BatteryPowerTool batteryPowerTool1 = new BatteryPowerTool("Power Drill","Frank's",12.0,9);
+//
+//        //call to the super() constructors to display all information of the subclass object
+//        System.out.println(batteryPowerTool1.getBrand() + ": " + batteryPowerTool1.getName() + " is a " + batteryPowerTool1.getAmper() + " amper, running " +batteryPowerTool1.getBatteryWatt() + " watts");
+//    }
+//}
+//---------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
