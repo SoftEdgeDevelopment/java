@@ -12,6 +12,13 @@ public class SubClass extends SuperClass{
         //super();
     }
 
+    //another way calling superclass constructor (the constructor with parameters) by overloading constructor
+    public SubClass(String forSuperClass, String subClassVariable){
+        //super must always be on the first line of the constructor
+        super(forSuperClass);
+        this.subClassVariable = subClassVariable;
+    }
+
     //getters and setters
     public String getSubClassVariable() {
         return subClassVariable;
