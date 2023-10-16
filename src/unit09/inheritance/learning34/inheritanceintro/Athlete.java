@@ -7,11 +7,13 @@ public class Athlete {
 
 
 
-    public Athlete(){
+    public Athlete(int birthYear){
         name = "John Doe";
         birthYear = 1991;
         team = "Team USA";
     }
+
+    public Athlete(){}
 
     public void practice(){
         System.out.println("The athlete is practicing.");

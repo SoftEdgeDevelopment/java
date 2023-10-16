@@ -4,7 +4,8 @@ package unit09.inheritance.learning34.inheritanceintro;
 public class Swimmer extends Athlete{
     private String swimStyle;
 
-    public Swimmer(){
+    public Swimmer() {
+        super();
         swimStyle = "Freestyle";
     }
 
