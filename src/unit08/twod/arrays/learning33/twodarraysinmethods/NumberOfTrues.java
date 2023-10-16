@@ -1,4 +1,4 @@
-package unit08.twod.arrays.learning32.twodarraysinmethods;
+package unit08.twod.arrays.learning33.twodarraysinmethods;
 
 //method to return the total number of boolean votes in an array
 
