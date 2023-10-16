@@ -2,10 +2,12 @@ package unit09.inheritance.learning35.override;
 
 import java.util.ArrayList;
 
+//new subclass extending athlete superclass
 public class SoccerPlayer extends Athlete{
     private int cleatSize;
     private ArrayList<String> kickStyles;
 
+    //generate super() constructor
     public SoccerPlayer(String name, String team, int jerseyNumber, int cleatSize, ArrayList<String> kickStyles) {
         super(name, team, jerseyNumber);
         this.cleatSize = cleatSize;

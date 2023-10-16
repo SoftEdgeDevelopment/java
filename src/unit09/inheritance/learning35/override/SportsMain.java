@@ -13,12 +13,20 @@ public class SportsMain {
 
         SoccerPlayer soccerPlayer1 = new SoccerPlayer("Kate S", "France", 34, 7,kicks);
 
-        //call to the object getting parameters from subclasses and creating ArrayList<>
+        //call to the object getting parameters from subclasses and creating ArrayList<>, overriding methods from subclasses
         System.out.println(soccerPlayer1.getName() + " plays for team " + soccerPlayer1.getTeam() + " wearing jersey number " + soccerPlayer1.getJerseyNumber() +
                 ", wearing cleat size " + soccerPlayer1.getCleatSize() + ", specializing in " + soccerPlayer1.getKickStyles());
 
         //call to the freeKick and practice methods
         soccerPlayer1.practice();
         soccerPlayer1.freeKick();
+
+        //create new hockey player from the HockeyPlayer subclass
+       HockeyPlayer hockeyPlayer1 = new HockeyPlayer("John", "Canada",23,9);
+       //call to the hockey player methods to display hockey player passing and shooting
+       hockeyPlayer1.pass();
+       hockeyPlayer1.shoot();
+       //will override and call to the practice method created in the HockeyPlayer subclass
+       hockeyPlayer1.practice();
     }
 }

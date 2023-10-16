@@ -1,11 +1,13 @@
 package unit09.inheritance.learning35.override;
 
+//superclass
 public class Athlete {
     private String name;
     private String team;
     private int jerseyNumber;
 
 
+    //generate constructor
     public Athlete(String name, String team, int jerseyNumber) {
         this.name = name;
         this.team = team;
