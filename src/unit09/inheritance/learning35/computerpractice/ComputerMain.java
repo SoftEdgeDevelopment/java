@@ -1,7 +1,5 @@
 package unit09.inheritance.learning35.computerpractice;
 
-
-
 public class ComputerMain {
     public static void main(String[] args) {
         //create new computer object from Computer class
