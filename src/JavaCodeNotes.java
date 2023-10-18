@@ -1614,5 +1614,71 @@
 //                '}';
 //    }
 //}
-
+//----------------------------------------------------------------------
+//public class PolymorphicVariableList {
+//    public static void main(String[] args) {
+//        //new Fruit object array
+//        unit09.inheritance.learning36.polymorphiclists.Fruit[] fruits = new unit09.inheritance.learning36.polymorphiclists.Fruit[5];
+//        //---
+//        //each fruit must be a subclass of Fruit
+//        unit09.inheritance.learning36.polymorphiclists.Fruit fruit1 = new unit09.inheritance.learning36.polymorphiclists.Fruit();
+//        unit09.inheritance.learning36.polymorphiclists.Fruit apple1 = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        unit09.inheritance.learning36.polymorphiclists.Grape batch1 = new unit09.inheritance.learning36.polymorphiclists.RedGrape();
+//        //---
+//        fruits[0] = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        fruits[1] = new unit09.inheritance.learning36.polymorphiclists.Grape();
+//        fruits[2] = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        fruits[3] = new unit09.inheritance.learning36.polymorphiclists.RedGrape();
+//        fruits[4] = new unit09.inheritance.learning36.polymorphiclists.YellowGrape();
+//        //foreach Fruit object in the fruits array
+//        for (unit09.inheritance.learning36.polymorphiclists.Fruit fruit : fruits) {
+//            //method to get the class name for each object
+//            System.out.println(fruit.getClass().getSimpleName());
+//        }
+//    }
+//}
+//
+////superclass
+//class Cup {
+//}
+//
+////subclass extending Cup
+//class CoffeeCup extends unit09.inheritance.learning36.polymorphiclists.Cup {
+//
+//}
+//
+////subclass extending CoffeeCup
+//class TurkishCoffeeCup extends unit09.inheritance.learning36.polymorphiclists.CoffeeCup {
+//
+//}
+//
+////subclass extending CoffeeCup
+//class MorocconCoffeeCup extends unit09.inheritance.learning36.polymorphiclists.CoffeeCup {
+//
+//}
+//
+////superclass
+//class Fruit {
+//}
+//
+////--------------------------------------
+////subclass of fruit superclass
+//class Apple extends unit09.inheritance.learning36.polymorphiclists.Fruit {
+//}
+//
+////---------------------------------------
+////subclass extents fruit superclass
+//class Grape extends unit09.inheritance.learning36.polymorphiclists.Fruit {
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class RedGrape extends unit09.inheritance.learning36.polymorphiclists.Grape {
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class YellowGrape extends unit09.inheritance.learning36.polymorphiclists.Grape {
+//
+//}
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
