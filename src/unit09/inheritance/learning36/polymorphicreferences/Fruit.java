@@ -23,6 +23,17 @@ class FruitMain {
 
         //this will not work because Apple is subclass of Fruit
         //Apple polymorphicApple = new Fruit();
+
+        //instanceof returns true or false to check if an object is part of a class
+        System.out.println(fruit1 instanceof Grape);
+        System.out.println(fruit2 instanceof Grape);
+        System.out.println(fruit3 instanceof Grape);
+        System.out.println(fruit7 instanceof Grape);
+        System.out.println(apple1 instanceof Fruit);
+        System.out.println(grape1 instanceof Fruit);
+        System.out.println(redGrape1 instanceof Fruit);
+        System.out.println(yellowGrape1 instanceof Grape);
+
     }
 }
 
