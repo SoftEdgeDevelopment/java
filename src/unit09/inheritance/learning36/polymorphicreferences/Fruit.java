@@ -30,7 +30,7 @@ class FruitMain {
         System.out.println(fruit3 instanceof Grape);
         System.out.println(fruit7 instanceof Grape);
         System.out.println(apple1 instanceof Fruit);
-        System.out.println(grape1 instanceof Fruit);
+        System.out.println(grape1 instanceof YellowGrape);
         System.out.println(redGrape1 instanceof Fruit);
         System.out.println(yellowGrape1 instanceof Grape);
 
