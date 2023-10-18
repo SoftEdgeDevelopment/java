@@ -2,7 +2,7 @@ package unit09.inheritance.learning37.polymorphism;
 
 
 
-//call to override methods to display different information in subclasses for the same method for different objects
+//call to override methods to display different information in subclasses for the same method for different objects and downcasting to call object
 import java.util.ArrayList;
 
 //main method
@@ -34,16 +34,34 @@ class Main {
             System.out.println(animals.getClass().getSimpleName() + " :");
             //call to the override method for each animals to display its sound
             animals.animalSound();
+            //this wil not work
+            //animals.sleeping();
+            //must be DOWNCASTED like the method below V, however it must match the object you are looking for;
         }
 
+        System.out.println("-------------------------");
         Animal cat1 = new Cat();
         //will not work because it is being created from Animal object
         //cat1.sleeping();
         cat1.animalSound();
-        cat.sleeping();
+        //this will not work
+        //cat1.sleeping();
+        //must be DOWNCASTED like the method below V, however it must match the object you are looking for;
+        ((Cat)cat1).sleeping();
         //this will not work because eating is part of the Pig class
         //cat.eating();
         dog.playing();
+
+        System.out.println("--------------------");
+        //for all the animals elements in the farm arraylist
+        for (Animal animals : farm) {
+            //if the animal is an object instanceof Cat class
+            if(animals instanceof Cat){
+                //downcast to Cat for sleeping method
+                ((Cat) animals).sleeping();
+            }
+        }
+
     }
 }
 
