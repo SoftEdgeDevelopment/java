@@ -1,8 +1,8 @@
 package unit09.inheritance.learning37.polymorphism;
 
 
-
 //call to override methods to display different information in subclasses for the same method for different objects and downcasting to call object
+
 import java.util.ArrayList;
 
 //main method
@@ -47,7 +47,7 @@ class Main {
         //this will not work
         //cat1.sleeping();
         //must be DOWNCASTED like the method below V, however it must match the object you are looking for;
-        ((Cat)cat1).sleeping();
+        ((Cat) cat1).sleeping();
         //this will not work because eating is part of the Pig class
         //cat.eating();
         dog.playing();
@@ -56,9 +56,11 @@ class Main {
         //for all the animals elements in the farm arraylist
         for (Animal animals : farm) {
             //if the animal is an object instanceof Cat class
-            if(animals instanceof Cat){
+            if (animals instanceof Cat) {
                 //downcast to Cat for sleeping method
                 ((Cat) animals).sleeping();
+            } else if (animals instanceof Bird) {
+                ((Bird) animals).flying();
             }
         }
 
@@ -83,7 +85,7 @@ class Cat extends Animal {
         System.out.println("Meow");
     }
 
-    public void sleeping(){
+    public void sleeping() {
         System.out.println("sleeping");
     }
 }
@@ -97,7 +99,8 @@ class Dog extends Animal {
         //super.animalSound();
         System.out.println("Woof Woof");
     }
-    public void playing(){
+
+    public void playing() {
         System.out.println("playing with a ball");
     }
 }
@@ -111,7 +114,8 @@ class Pig extends Animal {
         //super.animalSound();
         System.out.println("Oink Oink");
     }
-    public void eating(){
+
+    public void eating() {
         System.out.println("eating slop");
     }
 }
@@ -127,7 +131,7 @@ class Bird extends Animal {
     }
 
     //new void method for flying
-    public void flying(){
+    public void flying() {
         System.out.println("flying");
     }
 }
