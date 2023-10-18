@@ -20,6 +20,23 @@ public class PolymorphicVariableList {
             //method to get the class name for each object
             System.out.println(fruit.getClass().getSimpleName());
         }
+
+        //new grapes array
+        Grape[] grapes = new Grape[4];
+        grapes[0] = new Grape();
+        grapes[1] = new RedGrape();
+        grapes[2] = new YellowGrape();
+        //will not work because apple is not a subclass of Grape[]
+        //grapes[3] = new Apple();
+
+        //foreach object in the array
+        for (Grape grape : grapes) {
+            //if a grape is an instance of YellowGrape
+            if (grape instanceof YellowGrape){
+                //add it to the basket
+                System.out.println("A yellow grape was added to the basket");
+            }
+        }
     }
 }
 
