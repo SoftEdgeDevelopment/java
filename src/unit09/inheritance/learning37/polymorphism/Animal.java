@@ -2,7 +2,7 @@ package unit09.inheritance.learning37.polymorphism;
 
 
 
-//call to override methods to display different information in subclasses for the same method
+//call to override methods to display different information in subclasses for the same method for different objects
 import java.util.ArrayList;
 
 //main method
@@ -36,6 +36,14 @@ class Main {
             animals.animalSound();
         }
 
+        Animal cat1 = new Cat();
+        //will not work because it is being created from Animal object
+        //cat1.sleeping();
+        cat1.animalSound();
+        cat.sleeping();
+        //this will not work because eating is part of the Pig class
+        //cat.eating();
+        dog.playing();
     }
 }
 
@@ -44,6 +52,7 @@ public class Animal {
     public void animalSound() {
         System.out.println("The animal is making noise");
     }
+
 }
 
 class Cat extends Animal {
@@ -54,6 +63,10 @@ class Cat extends Animal {
         //remove super()
         //super.animalSound();
         System.out.println("Meow");
+    }
+
+    public void sleeping(){
+        System.out.println("sleeping");
     }
 }
 
@@ -66,6 +79,9 @@ class Dog extends Animal {
         //super.animalSound();
         System.out.println("Woof Woof");
     }
+    public void playing(){
+        System.out.println("playing with a ball");
+    }
 }
 
 class Pig extends Animal {
@@ -77,6 +93,9 @@ class Pig extends Animal {
         //super.animalSound();
         System.out.println("Oink Oink");
     }
+    public void eating(){
+        System.out.println("eating slop");
+    }
 }
 
 class Bird extends Animal {
@@ -87,5 +106,10 @@ class Bird extends Animal {
         //remove super()
         //super.animalSound();
         System.out.println("Kaw Kawww");
+    }
+
+    //new void method for flying
+    public void flying(){
+        System.out.println("flying");
     }
 }
