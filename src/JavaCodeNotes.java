@@ -1331,4 +1331,354 @@
 //----------------------Inheritance--------------------------------
 //Private instance variables and private methods are not inherited
 //public and protected variables and methods are inherited
+
+//------------------------------------------------------------
+//create new objects from super constructor to display information from different classes
+//-------------tool practice----------------
+//superclass
+//public class Tool {
+//    private String name;
+//    private String brand;
+//
+//    //generate constructor
+//    public Tool(String name, String brand) {
+//        this.name = name;
+//        this.brand = brand;
+//    }
+//
+//    //getters and setters
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public String getBrand() {
+//        return brand;
+//    }
+//
+//    public void setBrand(String brand) {
+//        this.brand = brand;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Tool{" +
+//                "name='" + name + '\'' +
+//                ", brand='" + brand + '\'' +
+//                '}';
+//    }
+//}
+
+//subclass extending Tool
+//public class PowerTool extends Tool {
+//    private double amper;
+//
+//    //generate super() constructor based on Tool
+//    public PowerTool(String name, String brand, double amper) {
+//        super(name, brand);
+//        this.amper = amper;
+//    }
+//
+//    public double getAmper() {
+//        return amper;
+//    }
+//
+//    public void setAmper(double amper) {
+//        this.amper = amper;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "PowerTool{" +
+//                "amper=" + amper +
+//                '}';
+//    }
+//}
+
+//subclass extending PowerTool
+//public class BatteryPowerTool extends PowerTool {
+//    private int batteryWatt;
+//
+//    public BatteryPowerTool(String name, String brand, double amper, int batteryWatt) {
+//        super(name, brand, amper);
+//        this.batteryWatt = batteryWatt;
+//    }
+//
+//    public int getBatteryWatt() {
+//        return batteryWatt;
+//    }
+//
+//    public void setBatteryWatt(int batteryWatt) {
+//        this.batteryWatt = batteryWatt;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "BatteryPowerTool{" +
+//                "batteryWatt=" + batteryWatt +
+//                '}';
+//    }
+//}
+
+//import unit09.inheritance.learning35.toolpractice.BatteryPowerTool;
+//import unit09.inheritance.learning35.toolpractice.PowerTool;
+//import unit09.inheritance.learning35.toolpractice.Tool;
+
+//main method
+//public class ToolMain {
+//    public static void main(String[] args) {
+//        Tool tool1 = new Tool("Saw","Jackson");
+//        PowerTool powerTool1 = new PowerTool("Jack Hammer","Timmy's",12.0);
+//        BatteryPowerTool batteryPowerTool1 = new BatteryPowerTool("Power Drill","Frank's",12.0,9);
+//
+//        //call to the super() constructors to display all information of the subclass object
+//        System.out.println(batteryPowerTool1.getBrand() + ": " + batteryPowerTool1.getName() + " is a " + batteryPowerTool1.getAmper() + " amper, running " +batteryPowerTool1.getBatteryWatt() + " watts");
+//    }
+//}
+//--------------------------------------------------------------------
+
+//polymorphic reference example
+
+//class FruitMain {
+//    public static void main(String[] args) {
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit1 = new unit09.inheritance.learning36.polymorphicreferences.Fruit(1.7,32);
+//        unit09.inheritance.learning36.polymorphicreferences.Apple apple1 = new unit09.inheritance.learning36.polymorphicreferences.Apple(2.3,12,"Red");
+//        unit09.inheritance.learning36.polymorphicreferences.Grape grape1 = new unit09.inheritance.learning36.polymorphicreferences.Grape(6,7,19);
+//        unit09.inheritance.learning36.polymorphicreferences.RedGrape redGrape1 = new unit09.inheritance.learning36.polymorphicreferences.RedGrape(1.4,15,15,10);
+//        unit09.inheritance.learning36.polymorphicreferences.YellowGrape yellowGrape1 = new unit09.inheritance.learning36.polymorphicreferences.YellowGrape(1.5,12,12,"Friday");
+//        //---------------------------------------
+//        //polymorphic reference
+//        //fruit objects from each subclass
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit2 = new unit09.inheritance.learning36.polymorphicreferences.Fruit(1.3,12);
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit3 = new unit09.inheritance.learning36.polymorphicreferences.Apple(1,5,"Red");
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit4 = new unit09.inheritance.learning36.polymorphicreferences.Grape(1,12,15);
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit5 = new unit09.inheritance.learning36.polymorphicreferences.RedGrape(1,23,54,10);
+//        unit09.inheritance.learning36.polymorphicreferences.Fruit fruit6 = new unit09.inheritance.learning36.polymorphicreferences.YellowGrape(1,7,4,"Friday");
+//        //grape object from subclass yellowGrape
+//        unit09.inheritance.learning36.polymorphicreferences.Grape fruit7 = new unit09.inheritance.learning36.polymorphicreferences.YellowGrape(1,5,7,"Monday");
+//
+//        //this will not work because Apple is subclass of Fruit
+//        //Apple polymorphicApple = new Fruit();
+//    }
+//}
+//
+////superclass
+//public class Fruit {
+//    double size;
+//    int amount;
+//
+//    //constructor
+//    public Fruit(double size, int amount) {
+//        this.size = size;
+//        this.amount = amount;
+//    }
+//
+//    //getters and setters
+//    public double getSize() {
+//        return size;
+//    }
+//
+//    public void setSize(double size) {
+//        this.size = size;
+//    }
+//
+//    public int getAmount() {
+//        return amount;
+//    }
+//
+//    public void setAmount(int amount) {
+//        this.amount = amount;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Fruit{" +
+//                "size=" + size +
+//                ", amount=" + amount +
+//                '}';
+//    }
+//}
+//
+////--------------------------------------
+////subclass of fruit superclass
+//class Apple extends unit09.inheritance.learning36.polymorphicreferences.Fruit {
+//    private String color;
+//
+//    //super() constructor generated from Fruit
+//    public Apple(double size, int amount, String color) {
+//        super(size, amount);
+//        this.color = color;
+//    }
+//
+//    //getters and setters
+//    public String getColor() {
+//        return color;
+//    }
+//
+//    public void setColor(String color) {
+//        this.color = color;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Apple{" +
+//                "color='" + color + '\'' +
+//                '}';
+//    }
+//}
+//
+////---------------------------------------
+////subclass extents fruit superclass
+//class Grape extends unit09.inheritance.learning36.polymorphicreferences.Fruit {
+//    int count;
+//
+//    //super() constructor from Fruit
+//    public Grape(double size, int amount, int count) {
+//        super(size, amount);
+//        this.count = count;
+//    }
+//
+//    //getters and setters
+//    public int getCount() {
+//        return count;
+//    }
+//
+//    public void setCount(int count) {
+//        this.count = count;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Grape{" +
+//                "count=" + count +
+//                '}';
+//    }
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class RedGrape extends unit09.inheritance.learning36.polymorphicreferences.Grape {
+//    private int howMuchDoYouLikeOutOfOneToTen;
+//
+//    //super() constructor from Grape class
+//    public RedGrape(double size, int amount, int count, int howMuchDoYouLikeOutOfOneToTen) {
+//        super(size, amount, count);
+//        this.howMuchDoYouLikeOutOfOneToTen = howMuchDoYouLikeOutOfOneToTen;
+//    }
+//
+//    //getters and setters
+//    public int getHowMuchDoYouLikeOutOfOneToTen() {
+//        return howMuchDoYouLikeOutOfOneToTen;
+//    }
+//
+//    public void setHowMuchDoYouLikeOutOfOneToTen(int howMuchDoYouLikeOutOfOneToTen) {
+//        this.howMuchDoYouLikeOutOfOneToTen = howMuchDoYouLikeOutOfOneToTen;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "RedGrape{" +
+//                "howMuchDoYouLikeOutOfOneToTen=" + howMuchDoYouLikeOutOfOneToTen +
+//                '}';
+//    }
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class YellowGrape extends unit09.inheritance.learning36.polymorphicreferences.Grape {
+//    private String whatIsTheBestDayToEatGrapes;
+//
+//    //super() constructor from Grape class
+//    public YellowGrape(double size, int amount, int count, String whatIsTheBestDayToEatGrapes) {
+//        super(size, amount, count);
+//        this.whatIsTheBestDayToEatGrapes = whatIsTheBestDayToEatGrapes;
+//    }
+//
+//    //getters and setters
+//    public String getWhatIsTheBestDayToEatGrapes() {
+//        return whatIsTheBestDayToEatGrapes;
+//    }
+//
+//    public void setWhatIsTheBestDayToEatGrapes(String whatIsTheBestDayToEatGrapes) {
+//        this.whatIsTheBestDayToEatGrapes = whatIsTheBestDayToEatGrapes;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "YellowGrape{" +
+//                "whatIsTheBestDayToEatGrapes='" + whatIsTheBestDayToEatGrapes + '\'' +
+//                '}';
+//    }
+//}
+//----------------------------------------------------------------------
+//public class PolymorphicVariableList {
+//    public static void main(String[] args) {
+//        //new Fruit object array
+//        unit09.inheritance.learning36.polymorphiclists.Fruit[] fruits = new unit09.inheritance.learning36.polymorphiclists.Fruit[5];
+//        //---
+//        //each fruit must be a subclass of Fruit
+//        unit09.inheritance.learning36.polymorphiclists.Fruit fruit1 = new unit09.inheritance.learning36.polymorphiclists.Fruit();
+//        unit09.inheritance.learning36.polymorphiclists.Fruit apple1 = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        unit09.inheritance.learning36.polymorphiclists.Grape batch1 = new unit09.inheritance.learning36.polymorphiclists.RedGrape();
+//        //---
+//        fruits[0] = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        fruits[1] = new unit09.inheritance.learning36.polymorphiclists.Grape();
+//        fruits[2] = new unit09.inheritance.learning36.polymorphiclists.Apple();
+//        fruits[3] = new unit09.inheritance.learning36.polymorphiclists.RedGrape();
+//        fruits[4] = new unit09.inheritance.learning36.polymorphiclists.YellowGrape();
+//        //foreach Fruit object in the fruits array
+//        for (unit09.inheritance.learning36.polymorphiclists.Fruit fruit : fruits) {
+//            //method to get the class name for each object
+//            System.out.println(fruit.getClass().getSimpleName());
+//        }
+//    }
+//}
+//
+////superclass
+//class Cup {
+//}
+//
+////subclass extending Cup
+//class CoffeeCup extends unit09.inheritance.learning36.polymorphiclists.Cup {
+//
+//}
+//
+////subclass extending CoffeeCup
+//class TurkishCoffeeCup extends unit09.inheritance.learning36.polymorphiclists.CoffeeCup {
+//
+//}
+//
+////subclass extending CoffeeCup
+//class MorocconCoffeeCup extends unit09.inheritance.learning36.polymorphiclists.CoffeeCup {
+//
+//}
+//
+////superclass
+//class Fruit {
+//}
+//
+////--------------------------------------
+////subclass of fruit superclass
+//class Apple extends unit09.inheritance.learning36.polymorphiclists.Fruit {
+//}
+//
+////---------------------------------------
+////subclass extents fruit superclass
+//class Grape extends unit09.inheritance.learning36.polymorphiclists.Fruit {
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class RedGrape extends unit09.inheritance.learning36.polymorphiclists.Grape {
+//}
+//
+////--------------------------------------
+////subclass of grape superclass
+//class YellowGrape extends unit09.inheritance.learning36.polymorphiclists.Grape {
+//
+//}
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
