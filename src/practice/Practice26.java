@@ -1,5 +1,4 @@
-package unit09.inheritance.learning37.polymorphism;
-
+package practice;
 
 //call to override methods to display different information in subclasses for the same method for different objects and downcasting to call object
 
@@ -9,7 +8,7 @@ import java.util.ArrayList;
 class Main {
     public static void main(String[] args) {
         //create new objects for each subclass
-        Animal animal = new Animal();
+        unit09.inheritance.learning37.polymorphism.Animal animal = new unit09.inheritance.learning37.polymorphism.Animal();
         System.out.println(animal.getClass().getSimpleName() + " :");
         animal.animalSound();
         Cat cat = new Cat();
@@ -21,15 +20,15 @@ class Main {
         System.out.println("--------------------");
         //............
         //easier way is to make ArrayList, calling to Animal superclass
-        ArrayList<Animal> farm = new ArrayList<>();
-        farm.add(new Animal());
+        ArrayList<Practice26> farm = new ArrayList<>();
+        farm.add(new Practice26());
         farm.add(new Cat());
         farm.add(new Dog());
         farm.add(new Pig());
         farm.add(new Bird());
 
         //for all the animals elements in the farm arraylist
-        for (Animal animals : farm) {
+        for (Practice26 animals : farm) {
             //get the class for each object
             System.out.println(animals.getClass().getSimpleName() + " :");
             //call to the override method for each animals to display its sound
@@ -40,7 +39,7 @@ class Main {
         }
 
         System.out.println("-------------------------");
-        Animal cat1 = new Cat();
+        Cat cat1 = new Cat();
         //will not work because it is being created from Animal object
         //cat1.sleeping();
         cat1.animalSound();
@@ -54,7 +53,7 @@ class Main {
 
         System.out.println("--------------------");
         //for all the animals elements in the farm arraylist
-        for (Animal animals : farm) {
+        for (Practice26 animals : farm) {
             //if the animal is an object instanceof Cat class
             if (animals instanceof Cat) {
                 //downcast to Cat for sleeping method
@@ -67,7 +66,7 @@ class Main {
     }
 }
 
-public class Animal {
+public class Practice26 {
     //new super() method for animal making noise
     public void animalSound() {
         System.out.println("The animal is making noise");
@@ -75,7 +74,7 @@ public class Animal {
 
 }
 
-class Cat extends Animal {
+class Cat extends Practice26 {
 
     //override animalSound method
     @Override
@@ -90,7 +89,7 @@ class Cat extends Animal {
     }
 }
 
-class Dog extends Animal {
+class Dog extends Practice26 {
 
     //override animalSound method
     @Override
@@ -105,7 +104,7 @@ class Dog extends Animal {
     }
 }
 
-class Pig extends Animal {
+class Pig extends Practice26 {
 
     //override animalSound method
     @Override
@@ -120,7 +119,7 @@ class Pig extends Animal {
     }
 }
 
-class Bird extends Animal {
+class Bird extends Practice26 {
 
     //override animalSound method
     @Override
