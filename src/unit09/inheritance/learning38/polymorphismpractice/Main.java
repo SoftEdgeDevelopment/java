@@ -17,6 +17,5 @@ public class Main {
             totalShipmentCost += mail.calculateShipping();
         }
         System.out.println("The total shipment cost is " + totalShipmentCost);
-        //test
     }
 }
