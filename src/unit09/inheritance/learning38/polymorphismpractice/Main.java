@@ -3,6 +3,7 @@ package unit09.inheritance.learning38.polymorphismpractice;
 import java.util.ArrayList;
 import java.util.List;
 
+//polymorphism practice, calling super methods to the main creating different object classes
 public class Main {
     public static void main(String[] args) {
         //new array list using Mail class
@@ -13,6 +14,8 @@ public class Main {
 
         //for each Mail object in the shipments array list
         for (Mail mail : shipments) {
+            //using to string method to display information of the mail
+            System.out.println(mail);
             //call to the calculateShipping() method to add it to the totalShipmentCost
             totalShipmentCost += mail.calculateShipping();
         }
