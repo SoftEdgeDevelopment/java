@@ -13,4 +13,12 @@ public class Mail {
         //weight *= 0.15;
         return weight * 0.15;
     }
+
+    //override to string method
+    @Override
+    public String toString() {
+        return "Mail{" +
+                "weight=" + weight +
+                '}';
+    }
 }

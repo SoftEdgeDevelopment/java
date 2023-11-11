@@ -8,6 +8,7 @@ public class Main {
         //new array list using Mail class
         ArrayList<Mail> shipments = new ArrayList<>(List.of(new Mail(10), new FastMail(3), new FastMail(4), new Mail(2)));
 
+        //starting shipment cost
         double totalShipmentCost = 0;
 
         //for each Mail object in the shipments array list
