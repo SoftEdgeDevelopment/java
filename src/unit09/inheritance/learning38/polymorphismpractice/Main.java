@@ -3,6 +3,7 @@ package unit09.inheritance.learning38.polymorphismpractice;
 import java.util.ArrayList;
 import java.util.List;
 
+//polymorphism practice, calling super methods to the main creating different object classes
 public class Main {
     public static void main(String[] args) {
         //new array list using Mail class
