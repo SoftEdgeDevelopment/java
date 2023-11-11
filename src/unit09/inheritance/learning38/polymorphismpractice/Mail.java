@@ -8,6 +8,14 @@ public class Mail {
         this.weight = weight;
     }
 
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     //new method to calculateShipping cost
     public double calculateShipping(){
         //weight *= 0.15;

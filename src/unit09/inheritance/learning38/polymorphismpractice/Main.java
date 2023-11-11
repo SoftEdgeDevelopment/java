@@ -13,6 +13,8 @@ public class Main {
 
         //for each Mail object in the shipments array list
         for (Mail mail : shipments) {
+            //using to string method to display information of the mail
+            System.out.println(mail);
             //call to the calculateShipping() method to add it to the totalShipmentCost
             totalShipmentCost += mail.calculateShipping();
         }
