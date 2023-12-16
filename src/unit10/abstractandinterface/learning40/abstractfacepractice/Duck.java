@@ -23,4 +23,5 @@ public class Duck extends Bird implements Swimable{
     public void swim() {
         System.out.println("The duck is swimming");
     }
+
 }

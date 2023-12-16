@@ -20,4 +20,5 @@ public class Dog extends Animal implements Swimable{
     public void swim() {
         System.out.println("Dog is swimming in doggy style");
     }
+
 }

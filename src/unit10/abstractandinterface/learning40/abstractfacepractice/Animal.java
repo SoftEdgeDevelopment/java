@@ -9,7 +9,6 @@ public abstract class Animal {
     }
 
 
-
     //non abstract method
     public void breathe(){
         System.out.println("Breathe in, Breathe out.");
