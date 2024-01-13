@@ -1684,3 +1684,25 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // --------------------------- Abstract Classes and Interface -------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+//# Collections in Java
+//
+//Java Collections framework provides a set of interfaces and classes to efficiently manage and manipulate groups of objects. There are four main types of collections: List, Set, Queue, and Map.
+//
+//        ## List
+//- **Keyword:** Index
+//- **Description:** Lists are ordered collections that allow elements to be stored in a specific sequence. Each element is assigned an index, making it easy to access and manipulate elements based on their position in the list.
+//
+//        ## Set
+//- **Keyword:** Unique / No duplicates
+//- **Description:** Sets are collections that do not allow duplicate elements. They ensure that each element is unique within the collection. Sets are useful when you need to maintain a distinct set of elements without any repetitions.
+//
+//        ## Queue
+//- **Keyword:** Default / Itself
+//- **Description:** Queues represent a collection that follows the First-In-First-Out (FIFO) order. Elements are added at the end (enqueue) and removed from the beginning (dequeue). Queues are particularly useful for implementing tasks that require a specific order of processing.
+//
+//## Map
+//- **Keyword:** Unique
+//- **Description:** Maps represent collections of key-value pairs. Each key is associated with a specific value, and keys within a map must be unique. Maps are efficient for tasks where you need to look up values based on their corresponding keys.
+//
+//These collection types provide a versatile foundation for managing and organizing data in Java applications.```
+
