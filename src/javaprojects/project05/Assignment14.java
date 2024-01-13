@@ -12,9 +12,8 @@ public class Assignment14 {
         // new String to store user input of the word
         String word = userInput.nextLine();
 
-        //calling to the isCountEqual method, create a boolean to show true or false and check if the counts of "cat" and "dog" are equal
-        boolean result = isCountEqual(word);
-        System.out.println(result);
+        //calling to the isCountEqual method using userInput check if the amount of times "cat" and "dog" is present are equal
+        System.out.println(isCountEqual(word));
     }
 
     //method to check if the count of "cat" and "dog" is equal
