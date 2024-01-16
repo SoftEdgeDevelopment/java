@@ -32,7 +32,6 @@ public class Assignment15 {
             //return an empty string if the word is empty
             return "no input detected";
         }
-
     }
 }
 
