@@ -5,9 +5,12 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SaleNumbersMain {
+    //quick way to sort using Comparator.comparing with a class without having to implement
     public static void main(String[] args) {
+        //new List using SaleNumbers class
         List<SaleNumbers> saleNumbersList = new ArrayList<>();
 
+        //add each object manually
         saleNumbersList.add(new SaleNumbers(12,54.76));
         saleNumbersList.add(new SaleNumbers(58,1245.34));
         saleNumbersList.add(new SaleNumbers(30,600.12));
