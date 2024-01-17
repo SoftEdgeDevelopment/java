@@ -16,8 +16,17 @@ public class Member implements Comparable<Member> {
     }
 
     //must implement method compareTo while using comparable interface
+    //we will say member "this" and "that"
     @Override
-    public int compareTo(Member o) {
-        return 0;
+    public int compareTo(Member that) {
+        //getting this.name (coming earlier)
+        //compare to that.name (getting later)
+        return this.name.compareTo(that.name);
     }
+
+    //(original implementation)
+    //@Override
+    //public int compareTo(Member o) {
+    //    return 0;
+    //}
 }

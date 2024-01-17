@@ -22,5 +22,6 @@ public class MemberListMain {
         //can sort after implementing Comparable interface to Member Class
         memberList.sort(Comparator.reverseOrder());
         System.out.println("Reverse Order: " + memberList);
+
     }
 }
