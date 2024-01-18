@@ -32,5 +32,15 @@ public class LIFOStackExample {
         //peek from the deque - shows the next up element in the stack
         System.out.println("Peek from the stack: " + integerStack.peek());
         System.out.println(integerStack);
+
+        integerStack.pop();
+        System.out.println("Popped from the stack: " + integerStack);
+        integerStack.pop();
+        System.out.println("Popped from the stack: " + integerStack);
+        integerStack.pop();
+        System.out.println("Popped from the stack: " + integerStack);
+        //will throw an exception if trying to pop from an empty deque
+        //integerStack.pop();
+        //System.out.println("Popped from the stack: " + integerStack);
     }
 }
