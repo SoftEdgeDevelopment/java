@@ -11,6 +11,5 @@ public class PriorityQueueIntegers {
         priorityIntegers.offer(45);
         priorityIntegers.offer(13);
         priorityIntegers.offer(25);
-
     }
 }
