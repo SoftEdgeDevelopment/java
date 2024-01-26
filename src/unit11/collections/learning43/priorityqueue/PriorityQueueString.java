@@ -8,6 +8,7 @@ public class PriorityQueueString {
         //first index will ALWAYS be the smallest letter in alphabetical order
         //new PriorityQueue using String Queue
         Queue<String> priorityString = new PriorityQueue<>();
+        //offer strings to the queue
         priorityString.offer("Tokyo");
         priorityString.offer("Trabzon");
         priorityString.offer("New Youk");
@@ -15,12 +16,15 @@ public class PriorityQueueString {
         priorityString.offer("Orlando");
         priorityString.offer("Alabama");
         priorityString.offer("Virginia");
+        //display the queue
         System.out.println(priorityString);
         System.out.println("-".repeat(15));
         System.out.println("poll from PriorityQueue");
+        //poll from the queue
         System.out.println(priorityString.poll());
         System.out.println("-".repeat(15));
         System.out.println("peek next in PriorityQueue");
+        //peek next in the queue
         System.out.println(priorityString.peek());
         System.out.println("-".repeat(15));
         System.out.println("poll from PriorityQueue");
