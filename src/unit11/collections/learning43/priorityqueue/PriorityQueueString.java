@@ -35,9 +35,5 @@ public class PriorityQueueString {
         System.out.println("-".repeat(15));
         System.out.println("peek next in PriorityQueue");
         System.out.println(priorityString.peek());
-
-
-
-
     }
 }
