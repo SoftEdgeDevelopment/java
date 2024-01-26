@@ -33,5 +33,6 @@ public class PriorityQueueIntegers {
         System.out.println("-".repeat(15));
         System.out.println("peek the next in queue");
         System.out.println(priorityIntegers.peek());
+
     }
 }
