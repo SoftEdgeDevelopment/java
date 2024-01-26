@@ -8,7 +8,7 @@ public class PriorityQueueIntegers {
     //priority que example
     public static void main(String[] args) {
         //the first index will ALWAYS be the SMALLEST element
-        //new queue using Integers
+        //new PriorityQueue using Integer Queue
         Queue<Integer> priorityIntegers = new PriorityQueue<>();
         //offer new numbers to the queue
         priorityIntegers.offer(45);
