@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class StudentSet {
+    //example with creating a HashSet using a class and generating equals() and hashCode() methods to prevent duplicates from the set
     public static void main(String[] args) {
         //new HashSet using Student class
         Set<Student> studentSet = new HashSet<>();
