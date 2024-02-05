@@ -47,8 +47,5 @@ public class SetInterviewStyleQuestion {
         //print list of unique elements
         distinctOnes.removeAll(duplicateOnes);
         System.out.println("unique words (no duplicates): " + distinctOnes);
-
-
-
     }
 }
