@@ -11,7 +11,9 @@ public class MultipleCatchBlocks {
             //NullPointerException
             String userString = null;
             userString.length();
-        }catch (ArrayIndexOutOfBoundsException e){
+
+            //to catch for 2 different exceptions
+        }catch (ArrayIndexOutOfBoundsException | StringIndexOutOfBoundsException e){
             e.printStackTrace();
             System.out.println("Array index out of bound exception happened...");
 
