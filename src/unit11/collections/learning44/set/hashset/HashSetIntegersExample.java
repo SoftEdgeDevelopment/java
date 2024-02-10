@@ -1,9 +1,10 @@
-package unit11.collections.learning43.set.hashset;
+package unit11.collections.learning44.set.hashset;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class HashSetIntegersExample {
+    //example with integer set
     public static void main(String[] args) {
         //create a new HashSet for integers
         Set<Integer> integerSet = new HashSet<>();
