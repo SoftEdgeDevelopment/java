@@ -15,12 +15,14 @@ public class MultipleCatchBlocks {
             //to catch for 2 different exceptions
         }catch (ArrayIndexOutOfBoundsException | StringIndexOutOfBoundsException e){
             e.printStackTrace();
-            System.out.println("Array index out of bound exception happened...");
+            System.out.println("Array index out of bounds exception occurred...");
 
             //when NullPointerException occurs
         }catch (NullPointerException e){
             e.printStackTrace();
-            System.out.println("Null pointer exception occured");
+            System.out.println("Null pointer exception occurred...");
+        }catch (Exception e){
+            System.out.println("Exception occurred...");
         }
         System.out.println("*".repeat(15));
         System.out.println("After try... catch block");
