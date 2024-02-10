@@ -1,7 +1,6 @@
-package unit11.collections.learning41.sorting;
+package unit11.collections.learning42.sorting;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class SortCustomObjectsMain {

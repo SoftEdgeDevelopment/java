@@ -1,4 +1,4 @@
-package unit11.collections.learning42.queue;
+package unit11.collections.learning43.queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

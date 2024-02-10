@@ -66,6 +66,7 @@ class Main {
     }
 }
 
+
 public class Practice26 {
     //new super() method for animal making noise
     public void animalSound() {
