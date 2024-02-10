@@ -16,8 +16,6 @@ public class practice20 {
         //another way to add all elements from another array list
         sumArrayEven.addAll(numbers);
         System.out.println("another way to add all elements from another array list "+ sumArrayEven);
-
-
     }
 
     public static ArrayList<Integer> createEvenNumbers() {
