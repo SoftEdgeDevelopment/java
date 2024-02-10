@@ -21,6 +21,7 @@ public class MultipleCatchBlocks {
         }catch (NullPointerException e){
             e.printStackTrace();
             System.out.println("Null pointer exception occurred...");
+            //catch all general exceptions last in order to prioritize targeted exceptions first
         }catch (Exception e){
             System.out.println("Exception occurred...");
         }
