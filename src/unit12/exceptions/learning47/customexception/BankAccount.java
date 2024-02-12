@@ -33,7 +33,7 @@ public class BankAccount {
         if(amount > balance){
             //throw new exception and add to method
             //overload the exception by adding a custom message
-            throw new Exception("Withdraw fail, insufficient balance");
+            throw new InsufficientBalanceException("Withdraw fail, insufficient balance");
         }
 
         balance -= amount;

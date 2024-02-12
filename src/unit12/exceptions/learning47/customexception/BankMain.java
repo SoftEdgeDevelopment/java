@@ -1,8 +1,8 @@
 package unit12.exceptions.learning47.customexception;
 
 public class BankMain {
-    //practice creating checked exception and printStackTrace from another class to the main
-    public static void main(String[] args) throws Exception {
+    //practice creating checked exception and printStackTrace from another class to the main using a custom exception
+    public static void main(String[] args) throws InsufficientBalanceException {
         //create a new bank account object from the BankAccount class starting with 100 balance
         BankAccount bankAccount = new BankAccount(100);
 
