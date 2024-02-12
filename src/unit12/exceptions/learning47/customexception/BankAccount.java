@@ -32,8 +32,8 @@ public class BankAccount {
         //if the amount withdraw is more than the balance, throw an exception
         if(amount > balance){
             //throw new exception and add to method
-            System.out.println("Insufficient balance");
-            throw new Exception();
+            //overload the exception by adding a custom message
+            throw new Exception("Withdraw fail, insufficient balance");
         }
 
         balance -= amount;
