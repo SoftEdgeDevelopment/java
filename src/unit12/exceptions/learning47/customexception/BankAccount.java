@@ -2,10 +2,13 @@ package unit12.exceptions.learning47.customexception;
 
 public class BankAccount {
     private double balance;
+    private String currency;
 
-    public BankAccount(double balance) {
+    public BankAccount(double balance, String currency) {
         this.balance = balance;
+        this.currency = currency;
     }
+
 
 //    public void withdraw(double amount) {
 //        if (amount > balance) {
@@ -39,6 +42,16 @@ public class BankAccount {
         balance -= amount;
 
         System.out.println("Withdraw : $" + amount + ", Remaining Balance : $" + balance + " SUCCESSFUL");
+    }
+
+    //new method for balance transfer that throws a custom currency mismatch exception if the currencies are not the same
+    public void balanceTransfer(double amount, String currency) throws CurrencyMismatchException {
+        if (!this.currency.equals(currency)) {
+            throw new CurrencyMismatchException("Currency mismatch: Account currency is " + this.currency);
+        }
+        // Proceed with balance transfer logic
+        // For demonstration, let's just print a message
+        System.out.println("Transfer " + amount + " " + currency);
     }
 
     @Override
