@@ -18,6 +18,7 @@
 [2.2: Encapsulation, Inheritance, Polymorphism, Abstraction](#encapsulation-inheritance-polymorphism-abstraction)
 
 ---
+
 [3.0: Conditionals](#unit-3-conditionals)
 
 [3.1: If Statements](#if-statements)
@@ -27,6 +28,18 @@
 [3.3: Loops](#loops)
 
 ---
+
+[4.0: Iteration](#unit-4-iteration)
+
+[4.1: While and do-while Loops](#while-and-do-while-loops)
+
+[4.2: For Loops](#for-loops)
+
+[4.3: Nested Loops](#nested-loops)
+
+---
+
+
 
 
 
@@ -578,3 +591,133 @@ do {
 ```
 
 ---
+
+# 4.0: Iteration <a name="unit-4-iteration"></a> 
+
+### 4.1: While and do-while Loops <a name="while-and-do-while-loops"></a>
+
+#### Basics of Loop Structures
+
+Loops are fundamental control structures in programming that allow repetitive execution of a block of code. The `while` and `do-while` loops are entry-controlled loops, meaning they check the condition before executing the loop body.
+
+#### Loop Control Flow and Termination Conditions
+
+Understanding the control flow of loops is crucial. It dictates how the loop progresses from one iteration to the next. Termination conditions define when the loop should stop executing.
+
+#### Using do-while Loops for Guaranteed Execution
+
+The `do-while` loop ensures that the block of code is executed at least once before checking the condition. This is useful in scenarios where you need to guarantee the execution of a code block at least once.
+
+```java
+public class WhileDoWhileExample {
+    public static void main(String[] args) {
+        // Example of a while loop
+        int i = 0;
+        while (i < 5) {
+            System.out.println("Inside while loop: " + i);
+            i++;
+        }
+
+        // Example of a do-while loop
+        int j = 0;
+        do {
+            System.out.println("Inside do-while loop: " + j);
+            j++;
+        } while (j < 5);
+    }
+}
+```
+
+## 4.2: For Loops <a name="for-loops"></a>
+
+### Structure of the for Loop
+
+The `for` loop is a concise and powerful control structure used for iterating over a range of values or elements. It consists of an initialization expression, a termination condition, and an iteration statement.
+
+```java
+public class ForLoopExample {
+    public static void main(String[] args) {
+        // Example of a for loop
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Inside for loop: " + i);
+        }
+    }
+}
+```
+
+### Loop Control Variables and Scope
+
+Loop control variables are typically declared within the initialization expression of the `for` loop. Their scope is limited to the loop body, ensuring encapsulation and preventing interference with variables outside the loop.
+
+```java
+public class ForLoopScopeExample {
+    public static void main(String[] args) {
+        // Example of loop control variable scope
+        int sum = 0;
+        for (int i = 1; i <= 5; i++) {
+            sum += i;
+        }
+        System.out.println("Sum: " + sum);
+        
+        // Error: 'i' is not accessible here
+        // System.out.println("Value of i: " + i);
+    }
+}
+```
+
+### Enhanced for Loop for Iterating Over Arrays and Collections
+
+The enhanced `for` loop, also known as the "for-each" loop, simplifies iteration over arrays, collections, and other iterable objects. It eliminates the need for explicit indexing or iterator manipulation, resulting in cleaner and more readable code.
+- This loop is particularly useful when you need to iterate over all elements of an array or collection without needing to access the index.
+- It provides a simpler syntax compared to traditional for loops, making the code more concise and easier to understand.
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class EnhancedForLoopExample {
+    public static void main(String[] args) {
+        // Example of enhanced for loop for iterating over an array
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int num : numbers) {
+            System.out.println(num);
+        }
+        
+        // Example of enhanced for loop for iterating over a collection
+        List<String> names = new ArrayList<>();
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+}
+```
+## 4.3: Nested Loops <a name="nested-loops"></a>
+
+### Introduction to Nested Loops
+
+Nested loops are loops within loops, allowing for the repetition of a block of code multiple times within the context of another loop. They are powerful constructs for handling complex repetitive tasks.
+
+### Nested Loop Patterns and Applications
+
+Nested loops can be utilized to generate intricate patterns, traverse multi-dimensional arrays, or perform iterative operations on hierarchical data structures. Understanding nested loop patterns is essential for solving a wide range of programming problems.
+
+- Nested loops can lead to increased complexity in code and should be used judiciously to maintain readability.
+- When nesting loops, ensure clarity by using meaningful variable names and appropriate indentation.
+
+```java
+public class NestedLoopExample {
+    public static void main(String[] args) {
+        // Example of nested loops to print a pattern
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+
