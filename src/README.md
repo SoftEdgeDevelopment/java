@@ -11,7 +11,7 @@
 
 ---
 
-[2.0: Introduction to Objects](#introduction-to-objects)
+[2.0: Objects](#introduction-to-objects)
 
 [2.1: Methods and Classes](#methods-and-classes)
 
@@ -140,7 +140,7 @@ public class InputExample {
 
 ---
 
-# 2.0 Introduction to Objects <a name="introduction-to-objects"></a>
+# 2.0: Objects <a name="introduction-to-objects"></a>
 
 ## Overview
 
@@ -168,7 +168,7 @@ Objects in OOP have two fundamental aspects:
 
 Understanding the state and behavior of objects is essential for designing effective and meaningful object-oriented systems.
 
-# 2.1 Methods and Classes <a name="methods-and-classes"></a>
+# 2.1: Methods and Classes <a name="methods-and-classes"></a>
 
 ## Declaring and Invoking Methods
 
@@ -234,7 +234,7 @@ private int age;
 }
 ```
 
-## 2.2 - Encapsulation, Inheritance, Polymorphism, Abstraction <a name="encapsulation-inheritance-polymorphism-abstraction"></a>
+## 2.2: Encapsulation, Inheritance, Polymorphism, Abstraction <a name="encapsulation-inheritance-polymorphism-abstraction"></a>
 
 ## Encapsulation
 
@@ -385,7 +385,7 @@ public class Triangle extends Shape {
 
 Conditionals are fundamental in controlling the flow of execution in a program based on certain conditions. Various constructs and techniques are used to implement conditional logic in Java programming.
 
-### 3.1: if Statements <a name="if-statements"></a>
+### 3.1: If Statements <a name="if-statements"></a>
 
 #### Boolean expressions and relational operators
 
@@ -432,7 +432,7 @@ String result = (number % 2 == 0) ? "Even" : "Odd";
 System.out.println("The number is " + result);
 ```
 
-### 3.2: switch Statements <a name="switch-statements"></a>
+### 3.2: Switch Statements <a name="switch-statements"></a>
 
 #### Switch-case structure and syntax
 
