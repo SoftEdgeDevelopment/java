@@ -18,6 +18,14 @@
 [2.2: Encapsulation, Inheritance, Polymorphism, Abstraction](#encapsulation-inheritance-polymorphism-abstraction)
 
 ---
+[Jump to Unit 3.0: Conditionals](#unit-3-conditionals)
+
+[Jump to 3.1: if Statements](#if-statements)
+
+[3.2: switch Statements](#switch-statements)
+
+[3.3: Loops](#loops)
+
 
 
 
@@ -367,3 +375,201 @@ public class Triangle extends Shape {
 ```
 
 ---
+
+# 3.0: Conditionals <a name="unit-3-conditionals"></a>
+
+## Overview
+
+Conditionals are fundamental in controlling the flow of execution in a program based on certain conditions. Various constructs and techniques are used to implement conditional logic in Java programming.
+
+### 3.1: if Statements <a name="if-statements"></a>
+
+#### Boolean expressions and relational operators
+
+Boolean expressions allow us to evaluate conditions that result in either true or false. Relational operators such as `==`, `!=`, `<`, `>`, `<=`, `>=` are used to compare values.
+
+```java
+// Example of boolean expressions and relational operators
+int x = 5;
+int y = 10;
+
+if (x == y) {
+        System.out.println("x is equal to y");
+} else {
+        System.out.println("x is not equal to y");
+}
+```
+
+#### Handling multiple conditions with logical operators
+
+Logical operators (`&&`, `||`, `!`) enable the combination of multiple boolean expressions to form more complex conditions.
+
+```java
+// Example of handling multiple conditions with logical operators
+int age = 25;
+boolean isStudent = true;
+
+if (age >= 18 && isStudent) {
+        System.out.println("You are an adult student.");
+} else if (age >= 18) {
+        System.out.println("You are an adult.");
+} else {
+        System.out.println("You are a minor.");
+}
+```
+
+#### The ternary operator
+
+The ternary operator (`condition ? expression1 : expression2`) provides a concise way to express conditional expressions.
+
+```java
+// Example of the ternary operator
+int number = 10;
+String result = (number % 2 == 0) ? "Even" : "Odd";
+System.out.println("The number is " + result);
+```
+
+### 3.2: switch Statements <a name="switch-statements"></a>
+
+#### Switch-case structure and syntax
+
+The switch-case structure allows for multi-way branching based on the value of an expression. It provides an alternative to long if-else chains for handling multiple cases.
+
+```java
+// Example of a switch statement
+int dayOfWeek = 3;
+String dayName;
+
+switch (dayOfWeek) {
+        case 1:
+dayName = "Monday";
+        break;
+        case 2:
+dayName = "Tuesday";
+        break;
+        case 3:
+dayName = "Wednesday";
+        break;
+        case 4:
+dayName = "Thursday";
+        break;
+        case 5:
+dayName = "Friday";
+        break;
+        case 6:
+dayName = "Saturday";
+        break;
+        case 7:
+dayName = "Sunday";
+        break;
+default:
+dayName = "Invalid day";
+        }
+
+        System.out.println("Today is " + dayName);
+```
+
+#### Using switch with enums
+
+Switch statements work well with enums, providing type safety and allowing for cleaner code when dealing with a predefined set of values.
+
+```java
+// Example of using switch with enums
+enum Day {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+Day today = Day.WEDNESDAY;
+String dayMessage;
+
+switch (today) {
+        case MONDAY:
+        case TUESDAY:
+        case WEDNESDAY:
+        case THURSDAY:
+        case FRIDAY:
+dayMessage = "It's a weekday.";
+        break;
+        case SATURDAY:
+        case SUNDAY:
+dayMessage = "It's a weekend.";
+        break;
+default:
+dayMessage = "Invalid day";
+        }
+
+        System.out.println(dayMessage);
+```
+
+#### Fall-through and break statements
+
+Switch statements support fall-through behavior, where control flows from one case to the next. The `break` statement is used to terminate the switch block and exit to the end of the switch statement.
+
+```java
+// Example demonstrating fall-through behavior
+int number = 3;
+String numName;
+
+switch (number) {
+        case 1:
+        case 2:
+        case 3:
+numName = "Small number";
+        break;
+        case 4:
+        case 5:
+        case 6:
+numName = "Medium number";
+        break;
+default:
+numName = "Large number";
+        }
+
+        System.out.println(numName);
+```
+
+### 3.3: Loops <a name="loops"></a>
+
+### 3.3.1: for Loops
+
+#### Syntax and usage
+
+The `for` loop is used to iterate over a range of values or elements in an array. It consists of initialization, condition, and iteration parts.
+
+```java
+// Example of a for loop
+for (int i = 0; i < 5; i++) {
+    System.out.println("Iteration: " + i);
+}
+```
+
+#### 3.3.2: while Loops
+### 3.3.2: while Loops
+
+#### Syntax and usage
+
+The `while` loop repeatedly executes a block of code as long as a specified condition is true. It is suitable for situations where the number of iterations is not known beforehand.
+
+```java
+// Example of a while loop
+int count = 0;
+while (count < 5) {
+    System.out.println("Count: " + count);
+    count++;
+}
+```
+
+### 3.3.3: do-while Loops
+
+#### Syntax and usage
+
+The `do-while` loop is similar to the `while` loop, but it guarantees that the block of code is executed at least once before checking the condition.
+
+```java
+// Example of a do-while loop
+int num = 0;
+do {
+    System.out.println("Number: " + num);
+    num++;
+} while (num < 5);
+```
