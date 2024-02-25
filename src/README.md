@@ -18,9 +18,9 @@
 [2.2: Encapsulation, Inheritance, Polymorphism, Abstraction](#encapsulation-inheritance-polymorphism-abstraction)
 
 ---
-[Jump to Unit 3.0: Conditionals](#unit-3-conditionals)
+[3.0: Conditionals](#unit-3-conditionals)
 
-[Jump to 3.1: if Statements](#if-statements)
+[3.1: if Statements](#if-statements)
 
 [3.2: switch Statements](#switch-statements)
 
