@@ -20,9 +20,9 @@
 ---
 [3.0: Conditionals](#unit-3-conditionals)
 
-[3.1: if Statements](#if-statements)
+[3.1: If Statements](#if-statements)
 
-[3.2: switch Statements](#switch-statements)
+[3.2: Switch Statements](#switch-statements)
 
 [3.3: Loops](#loops)
 
