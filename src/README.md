@@ -21,7 +21,7 @@
 
 
 
-## Unit 1: Primitive Types <a name="unit-1-primitive-types"></a>
+## 1.0: Primitive Types <a name="unit-1-primitive-types"></a>
 
 ### Overview
 In programming, data types define the nature of the data that can be stored and manipulated within a program. Primitive types are fundamental data types that are directly supported by the programming language. They are the building blocks of all other complex data types. In this unit, we'll explore various primitive types commonly used in programming and understand their characteristics and usage.
@@ -44,7 +44,7 @@ In programming, data types define the nature of the data that can be stored and 
 - **Type Promotion**: When operations involve operands of different types, smaller types are automatically promoted to larger types to perform the operation. For example, if you add an `int` and a `double`, the `int` is promoted to a `double` before the addition.
 - **Type Casting**: Type casting is the explicit conversion of a value from one data type to another. It can be done using casting operators. For example, `(int) 3.14` casts the `double` value `3.14` to an `int`.
 
-## Variables and Assignments <a name="variables-and-assignments"></a>
+## 1.1: Variables and Assignments <a name="variables-and-assignments"></a>
 
 ### Variable Naming Conventions
 - Variables should have meaningful names that reflect their purpose and usage.
@@ -59,7 +59,7 @@ In programming, data types define the nature of the data that can be stored and 
 - Type casting is used when converting between different data types. For example, `double` can be cast to `int` using `(int)` before the double value.
 - Conversion techniques include implicit conversion, where the compiler automatically converts compatible types, and explicit conversion, where the programmer specifies the conversion using casting.
 
-## Input with Scanner <a name="input-with-scanner"></a>
+## 1.2: Input with Scanner <a name="input-with-scanner"></a>
 
 ### Overview
 In programming, often you need to interact with users by taking input from them. The `Scanner` class in Java provides various methods for taking user input from the keyboard. It allows you to read different types of data, such as integers, floating-point numbers, strings, etc. In this section, we'll explore how to use the `Scanner` class to read input from the user.
@@ -367,6 +367,3 @@ public class Triangle extends Shape {
 ```
 
 ---
-
-
-
