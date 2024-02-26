@@ -39,6 +39,18 @@
 
 ---
 
+[5.0: Classes and Object-Oriented Programming (OOP)](#unit-50-classes-and-object-oriented-programming-oop)
+
+[5.1: Classes and Objects](#classes-and-objects)
+
+[5.2: Inheritance](#inheritance)
+
+[5.3: Polymorphism](#polymorphism)
+
+---
+
+
+
 
 
 
@@ -720,4 +732,231 @@ public class NestedLoopExample {
     }
 }
 ```
+
+# 5.0: Classes and Object-Oriented Programming (OOP) <a name="unit-50-classes-and-object-oriented-programming-oop"></a>
+
+## 5.1: Classes and Objects <a name="classes-and-objects"></a>
+
+### Encapsulation and Information Hiding
+
+Encapsulation involves bundling data (attributes or properties) and methods (functions) that operate on the data into a single unit called a class. It promotes information hiding, where the internal details of a class are hidden from the outside world, and only a well-defined interface is exposed.
+
+```java
+// Example demonstrating encapsulation and information hiding
+public class EncapsulationExample {
+    private int value;
+
+    // Setter method to set the value
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    // Getter method to get the value
+    public int getValue() {
+        return value;
+    }
+}
+```
+
+### Constructors and Instance Variables
+
+Constructors are special methods used for initializing objects when they are created. They have the same name as the class and may accept parameters to set initial values for instance variables. Instance variables (or fields) hold the state of an object and define its characteristics.
+
+```java
+// Example demonstrating constructors and instance variables
+public class ConstructorExample {
+    private int id;
+    private String name;
+
+    // Constructor with parameters
+    public ConstructorExample(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    // Getter methods
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+```
+
+### The "this" Keyword
+
+The "this" keyword refers to the current object instance within a class. It is used to differentiate between instance variables and parameters with the same name, and to access methods or constructors within the same class.
+
+```java
+// Example demonstrating the "this" keyword
+public class ThisKeywordExample {
+    private int id;
+    private String name;
+
+    // Constructor with parameters having same names as instance variables
+    public ThisKeywordExample(int id, String name) {
+        // Use of "this" keyword to differentiate between instance variables and parameters
+        this.id = id;
+        this.name = name;
+    }
+
+    // Method to display object details
+    public void display() {
+        System.out.println("ID: " + this.id);
+        System.out.println("Name: " + this.name);
+    }
+}
+```
+
+## 5.2: Inheritance <a name="inheritance"></a>
+
+### Creating a Class Hierarchy
+
+Inheritance is a fundamental concept in OOP that allows a new class (subclass or derived class) to inherit attributes and methods from an existing class (superclass or base class). This promotes code reuse and facilitates the creation of class hierarchies.
+
+```java
+// Example demonstrating inheritance
+public class Animal {
+    public void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+
+### Access Modifiers: public, private, protected, default
+
+Access modifiers control the visibility and accessibility of classes, variables, and methods. They specify who can access them and from where. Java provides four access modifiers: public, private, protected, and default (no modifier).
+
+```java
+// Example demonstrating access modifiers
+public class AccessModifiersExample {
+    public int publicVariable;
+    private int privateVariable;
+    protected int protectedVariable;
+    int defaultVariable;
+
+    // Public method
+    public void publicMethod() {
+        System.out.println("Public method");
+    }
+
+    // Private method
+    private void privateMethod() {
+        System.out.println("Private method");
+    }
+
+    // Protected method
+    protected void protectedMethod() {
+        System.out.println("Protected method");
+    }
+
+    // Default method
+    void defaultMethod() {
+        System.out.println("Default method");
+    }
+}
+```
+
+### The "super" Keyword and Method Overriding
+
+The "super" keyword is used to access members of the superclass within the subclass. It can be used to call superclass constructors or methods. Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.
+
+```java
+// Example demonstrating the "super" keyword and method overriding
+public class Animal {
+    public void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+
+    // Method overriding using the "super" keyword
+    public void animalSound() {
+        super.sound(); // Call superclass method
+    }
+}
+```
+
+## 5.3 Polymorphism <a name="polymorphism"></a>
+
+### Understanding Polymorphism
+
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables more flexible and dynamic behavior at runtime, as methods can be overridden in subclasses to provide specialized implementations. Polymorphism is a key principle in OOP, promoting code reuse and extensibility.
+
+```java
+// Example demonstrating encapsulation and information hiding
+public class EncapsulationExample {
+    private int value;
+
+    // Getter and setter methods for encapsulated variable
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+}
+
+// Example demonstrating constructors and instance variables
+public class ConstructorExample {
+    private int id;
+    private String name;
+
+    // Constructor with parameters
+    public ConstructorExample(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    // Getter methods
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+// Example demonstrating inheritance
+public class Animal {
+    public void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+public class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+// Example demonstrating polymorphism
+public class PolymorphismExample {
+    public static void main(String[] args) {
+        Animal animal1 = new Animal();
+        Animal animal2 = new Dog();
+
+        animal1.sound(); // Output: Animal makes a sound
+        animal2.sound(); // Output: Dog barks
+    }
+}
+```
+
 
