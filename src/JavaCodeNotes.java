@@ -1705,4 +1705,3 @@
 //- **Description:** Maps represent collections of key-value pairs. Each key is associated with a specific value, and keys within a map must be unique. Maps are efficient for tasks where you need to look up values based on their corresponding keys.
 //
 //These collection types provide a versatile foundation for managing and organizing data in Java applications.```
-
