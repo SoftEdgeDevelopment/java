@@ -135,7 +135,6 @@
 - [13.6: Handling Timezones and Daylight Saving Time](#handling-timezones-and-daylight-saving-time)
 - [13.7: Best Practices for Working with Dates and Times](#best-practices-for-working-with-dates-and-times)
 
-
 ---
 
 # 1.0: Primitive Types <a name="unit-1-primitive-types"></a>
