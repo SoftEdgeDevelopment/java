@@ -111,7 +111,7 @@
 
 - [11.5: Queue Interface and Implementations](#queue-interface-and-implementations)
 
-- [11.6: Types of Collections](#types-of_collections)
+- [11.6: Types of Collections](#types-of-collections)
 
 ---
 
