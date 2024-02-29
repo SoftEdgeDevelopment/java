@@ -2150,7 +2150,7 @@ queue.add("Orange");
 
 ---
 
-## 11.6: Types of Collections <a name="types-of-collections></a>
+## 11.6: Types of Collections <a name="types-of-collections"></a>
 
 ## Collection Interface
 
