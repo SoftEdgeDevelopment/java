@@ -2061,11 +2061,11 @@ By understanding interfaces and their usage, developers can design more modular 
 
 ---
 
-# Unit 11: Collections <a name="collections></a>
+# Unit 11: Collections <a name="collections"></a>
 
 Collections in Java provide a framework of classes and interfaces for storing and manipulating groups of objects. They offer various data structures and algorithms to efficiently handle data in different scenarios.
 
-## 11.1: Introduction to Collections <a name="introduction-to-collections></a>
+## 11.1: Introduction to Collections <a name="introduction-to-collections"></a>
 
 Collections are fundamental in Java programming, offering a way to manage groups of objects. They provide interfaces and classes for storing, organizing, and manipulating data in various data structures such as lists, sets, maps, and queues.
 
@@ -2076,7 +2076,7 @@ Collections are fundamental in Java programming, offering a way to manage groups
 - **Maps**: Key-value pairs where each key is unique.
 - **Queues**: Collections designed for holding elements before processing.
 
-## 11.2: List Interface and Implementations <a name="list-interface-and-implementations></a>
+## 11.2: List Interface and Implementations <a name="list-interface-and-implementations"></a>
 
 The List interface in Java represents an ordered collection of elements. It extends the Collection interface and provides methods to access, insert, update, and remove elements.
 
@@ -2094,7 +2094,7 @@ list.add("Orange");
 - **ArrayList**: Resizable array implementation of the List interface.
 - **LinkedList**: Doubly linked list implementation of the List interface.
 
-## 11.3: Set Interface and Implementations <a name="set-interface-and-implementations></a>
+## 11.3: Set Interface and Implementations <a name="set-interface-and-implementations"></a>
 
 The Set interface in Java represents a collection of unique elements. It does not allow duplicate elements.
 
@@ -2112,7 +2112,7 @@ set.add("Orange");
 - **HashSet**: Implements the Set interface using a hash table.
 - **TreeSet**: Implements the SortedSet interface using a red-black tree.
 
-## 11.4: Map Interface and Implementations <a name="map-interface-and-implementations></a>
+## 11.4: Map Interface and Implementations <a name="map-interface-and-implementations"></a>
 
 The Map interface in Java represents a collection of key-value pairs. Each key is associated with a single value.
 
@@ -2130,7 +2130,7 @@ map.put("Orange", 30);
 - **HashMap**: Implements the Map interface using a hash table.
 - **TreeMap**: Implements the SortedMap interface using a red-black tree.
 
-## 11.5: Queue Interface and Implementations <a name="queue-interface-and-implementations></a>
+## 11.5: Queue Interface and Implementations <a name="queue-interface-and-implementations"></a>
 
 The Queue interface in Java represents a collection used to hold elements before processing. It follows the FIFO (First-In-First-Out) order.
 
