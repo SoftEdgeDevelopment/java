@@ -13,36 +13,36 @@ import java.util.Scanner;
 public class Assignment02 {
 
     public static void main(String[] args) {
-        // Declare the variables
+        //declare the variables
         String input, word;
 
-        // Create Scanner object
+        //create Scanner object
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user for the main string
+        //prompt the user for the main string
         System.out.println("Enter the main string: ");
         input = scanner.nextLine();
 
-        // Prompt the user for the word
+        //prompt the user for the word
         System.out.println("Enter the word: ");
         word = scanner.nextLine();
 
-        // Call the method and print the result
+        //call the method and print the result
         System.out.println("Output: " + getInbetween(input, word));
     }
 
-    // Updated method to accept the word as a parameter
+    //updated method to accept the word as a parameter
     public static String getInbetween(String str, String word) {
-        // Finding the index of the first and last occurrence of the word
+        //finding the index of the first and last occurrence of the word
         int firstWordEndIndex = str.indexOf(word) + word.length();
         int lastWordStartIndex = str.lastIndexOf(word);
 
-        // Check if there are at least two occurrences of the word
+        //check if there are at least two occurrences of the word
         if (firstWordEndIndex < lastWordStartIndex) {
-            // Return the string in between
+            //return the string in between
             return str.substring(firstWordEndIndex, lastWordStartIndex);
         } else {
-            // Return "nothing" if there are not two occurrences of the word
+            //return "nothing" if there are not two occurrences of the word
             return "nothing";
         }
     }
