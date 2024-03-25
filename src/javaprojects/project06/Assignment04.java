@@ -35,7 +35,6 @@ public class Assignment04 {
         if (id != null) {
             System.out.println(id);
         }
-
         //close scanner
         scanner.close();
     }
