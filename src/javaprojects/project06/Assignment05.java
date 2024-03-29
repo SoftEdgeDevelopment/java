@@ -3,7 +3,6 @@ package javaprojects.project06;
 import java.util.Scanner;
 
 //method that prints a stars triangle based on the integer entered by the user
-
 public class Assignment05 {
 
     //method to print the stars triangle
