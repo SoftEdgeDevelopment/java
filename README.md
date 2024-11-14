@@ -62,7 +62,7 @@
 
 ---
 
-- [7.0: Arrays](#arrays)
+- [7.0: ArrayLists](#arraylists)
 
 - [7.1: Introduction to ArrayLists](#introduction-to-arraylists)
 
@@ -1489,7 +1489,7 @@ Advanced array operations are crucial for effectively managing and manipulating 
 
 ---
 
-# 7.0: ArrayLists <a name="arrays"></a>
+# 7.0: ArrayLists <a name="arraylists"></a>
 
 ## 7.1: Introduction to ArrayLists <a name="introduction-to-arraylists"></a>
 
